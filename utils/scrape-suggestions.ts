@@ -183,7 +183,7 @@ scrapeAllSuggestions()
   .then(async (suggestions) => {
     // Save results to a JSON file
     const fs = await import("fs");
-    const outputPath = "./data/suggestions-output.json";
+    const outputPath = "./data/suggestions.json";
     fs.writeFileSync(outputPath, JSON.stringify(suggestions, null, 2));
     console.log(`Results saved to ${outputPath}`);
   })

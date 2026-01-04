@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState, useRef, useEffect, useCallback } from "react";
 import { Search, Stethoscope, Building2 } from "lucide-react";
-import suggestionsData from "../../data/suggestions-output.json";
+import suggestionsData from "../../data/suggestions.json";
 
 export const Route = createFileRoute("/")({ component: App });
 
