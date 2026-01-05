@@ -1,0 +1,6026 @@
+[
+  {
+    "name": "(Over-) Toiletstoel",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "(Uitwendige) elektrostimulator",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "(filter) Brillenglazen bij medische diagnose voor verzekerden onder de 18 jaar",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "(filter) Contactlenzen bij medische diagnose",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "ACD",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "AD matras",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "ADHD",
+    "category": "Aandoening"
+  },
+  {
+    "name": "ADL hond",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "AIDS",
+    "category": "Aandoening"
+  },
+  {
+    "name": "ALK",
+    "category": "Aandoening"
+  },
+  {
+    "name": "ASV-apparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "AVM",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Aambeien - Dermatologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Aambeien - Heelkunde",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Aandachtstekort- en gedragsstoornissen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Aangeboren hartafwijkingen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Aangeboren heupafwijking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Aangepaste in- en uitvoerapparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Aangepaste software",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Aangepaste software voor slechtzienden",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Aangepaste stoel",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Aangepaste stoel voor een kind",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Aangepaste tafel",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Aangezichtsverlamming",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Aantrekhulp voor elastische kousen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Aardbeineus",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Abces - Dermatologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Abces - Heelkunde",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Abdominoplastiek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Abortus",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Achterkapselruptuur",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Achterste kruisbandoperatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Achterste kruisbandreconstructie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Acne",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Acupunctuur",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Acute stressstoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ademhalingsstoornissen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Aderverkalking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Advies arts verstandelijk gehandicapten (AVG)",
+    "category": "Behandeling"  
+  },
+  {
+    "name": "Advies specialist ouderengeneeskunde (SO)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Afdekpleister voor het oog",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Afvallen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Afwijking alvleesklier",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Afwijkingen oorschelp",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Afwijkingen van de gehoorbeentjes",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Alcohol",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Alcohol en overige middelen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Algehele anesthesie m.b.t. mondzorg in bijzondere gevallen (narcose)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Algemene voetzorg door podotherapeut",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Algemene voetzorg door register-podoloog",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Allergeenvrije schoenen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Allergie (Allergologie)",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Allergisch contact eczeem",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Allergologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Allergoloog",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Alternatieve geneeswijzen",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Alternatieve zorg",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Alvleesklier transplantatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Alvleesklierkanker - Oncologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Alvleesklierverwijdering",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Alzheimer",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Alzheimer - Neurologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Amblyopie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Anaaltampons",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Anesthesist en/of Anesthesioloog",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Aneurysma van de aorta",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Angina pectoris",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Angiografisch onderzoek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Angst",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Angst voor de tandarts vanuit bijzondere tandheelkunde met algehele anesthesie (narcose)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Angst voor de tandarts vanuit bijzondere tandheelkunde met lachgas (roesje)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Angststoornissen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Anorexia",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Anterior Interosseous Syndroom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Anti-decubitus (AD) matras",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Anti-decubitus (AD) zitkkussen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Anti-refluxoperatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Anti-snurkbehandeling",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Anti-sociale persoonlijkheidsstoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Anti-varusschoen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Anticonceptie",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Anticonceptie hulpmiddelen (pessarium, spiraaltje)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Antroposofische consulten",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Apotheek",
+    "category": "Instelling"
+  },
+  {
+    "name": "Apotheek (online)",
+    "category": "Instelling"
+  },
+  {
+    "name": "Apparatuur voor compressietherapie",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Apps voor doven en slechthorenden om te bellen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Arfid",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Armkousen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Armlift",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Armondersteuning",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Armorthese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Armprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Arterieel vaatlijden",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Arthrodesekoker",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Arthroscopie van de schouder",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Artrodese",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Artroscopie knie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Artroscopie van de schouder",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Artrose",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Asperger",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Astigmatisme",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Astma",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Astmacentra",
+    "category": "Instelling"
+  },
+  {
+    "name": "Atopisch eczeem",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Audiciens",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Audiologisch centrum",
+    "category": "Instelling"
+  },
+  {
+    "name": "Auditief gehandicaptenzorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Auditief zintuigelijk gehandicaptenzorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Auriculotherapie (Oor acupunctuur)",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Autisme",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Auto Adaptieve Knie (AAK)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Baarmoeder verwijderen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Baarmoederhalsafwijkingen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Baarmoederhalskanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Baarmoederkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Badplank",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bandagelenzen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bariatrie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Bariatrie België",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Bariatrische chirurgie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Basaalcelcarcinoom - Dermatologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Basis GGZ",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Bedbeugel voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedbeugel voor langdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedden",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedgalg voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedgalg voor langdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedheffer voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedheffer voor langdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedhekken voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedhekken voor langdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedpapegaai voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedpapegaai voor langdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedrugsteun",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedtafel voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedtafel voor langdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedverhogers",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedverkorters voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bedverlengers voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Beeldschermloep",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Beeldschermloep met voorleesfunctie",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Beeldvervorming",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Beenkousen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Beenmergkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Beenprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Behandeling aan de voet",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Behandeling gedragswetenschapper",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Behandelprogramma Hersenz",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Bekkenband",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bekkenbodemklachten",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Bekkeninstabiliteit",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Belemmering van de darmwerking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Benauwdheid",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Beroerte",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Beschadiging meniscus",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Beschadiging netvlies door diabetes",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Beschadiging netvlies door suikerziekte",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Besnijdenis (medische indicatie) - Heelkunde",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Besnijdenis (medische indicatie) - Urologie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Bestraling",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Bestraling - radiotherapie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Beugelapparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bevallen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Bevalling",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Bevallingsspecialisme",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Beweegprogramma",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Bijniercarcinoom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Bijnierkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Bijziendheid",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Bindvliesontsteking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Binge-eating",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Bioptic",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bipap ST-apparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bipolair",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Bipolaire stoornissen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Blaasgezwel (blaastumor)",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Blaaskanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Blaasontsteking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Blaasresectie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Blaasstenen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Blaasvergroting",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Blaasverwijdering",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Blaasverwijdering België",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Blaasverzakking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Bladomslagapparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Blepharitis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Blind",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Blindedarmontsteking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Blindengeleidehond",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Blindengeleidestok",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bloedglucosemeter",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bloedglucosetestmeter",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bloedkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Bloedplassen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Bloedprikken (eerstelijns diagnostiek)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Bloedsuikermeter",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Bloedvergiftiging",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Body dysmorfic",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Borderline",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Borstimplantaat verwijderen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Borstkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Borstkanker België",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Borstlift",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Borstprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Borstprothese (medische indicatie)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Borstreconstructie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Borstresectie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Borstvergroting",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Borstverkleining",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Borstvermindering bij man",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Borstvermindering bij man (gynecomastia)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Borstvlieskanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Botdichtheidsmeting",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Botkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Botontkalking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Botverankerd hoortoestel met softband",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Boulemie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Boulimia",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Bovenooglidcorrectie - Plastische Chirurgie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Bovenooglidcorrecties - Oogheelkunde",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Bowen therapie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Brace",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Braille leesregel",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Brailleprinter",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Brailleschrijfmachines",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Brandwonden",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Bronchitis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Bronchoscopie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Buikwandcorrectie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Bypass operatie rond het hart",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Bypass tbv gewichtsverlies",
+    "category": "Behandeling"
+  },
+  {
+    "name": "CMD",
+    "category": "Aandoening"
+  },
+  {
+    "name": "COPD",
+    "category": "Aandoening"
+  },
+  {
+    "name": "CPAP-apparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "CT-scan",
+    "category": "Behandeling"
+  },
+  {
+    "name": "CVA",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Canabis verslaving",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Cardiologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Cardiologische revalidatie - Revalidatiegeneeskunde",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Cardioloog",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Cardiovasculair Risico Management / CVR",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Carotisendarterectomie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Carotisstenose - Cardiologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Carotisstenose - Heelkunde",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Carpaal tunnel syndroom - Heelkunde",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Carpaal tunnel syndroom - Neurochirurgie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Carpaal tunnel syndroom - Neurologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Carpaal tunnel syndroom - Orthopedie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Carpaal tunnel syndroom - Plastische Chirurgie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Casemanagement dementie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Cataract",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Cellulitis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Centrale zorgverlener GLI kinderen (CZV)",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Centrum voor bijzondere tandheelkunde",
+    "category": "Instelling"
+  },
+  {
+    "name": "Centrum voor mondzorg",
+    "category": "Instelling"
+  },
+  {
+    "name": "Centrum voor mondzorg, algemene mondzorg",
+    "category": "Instelling"
+  },
+  {
+    "name": "Cervicale discotomie - Neurochirurgie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Cervicale discotomie - Orthopedie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Cervicale kanaalstenose",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Cervicale kanaalstenose - Orthopedie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Cervix kanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Cervixcarcinoom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Chemotherapie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Chiropractie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Chirurg",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Chirurgie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Chlamydia",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Chromosoomonderzoek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Chronisch Vermoeidheidssyndroom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Chronische depressie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Chronische verkoudheid",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Cilinderafwijking van het oog",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Claudicatio intermittens dotterbehandelingen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Cocaïne verslaving",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Coeliakie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Cognitieve stoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Colitis Ulcerosa",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Colonscopie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Colposcopie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Communicatieapparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Compressie apparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Compressiehulpmiddelen t.b.v. wondbehandeling",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Concentrator",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Congenitale heupdysplasie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Conjunctivitis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Constitutioneel eczeem",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Consult arts verstandelijk gehandicapten (AVG)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Consult specialist ouderengeneeskunde (SO)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Contact eczeem",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Coronaire microvasculaire dysfunctie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Counseling",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Couperose",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Craniotomie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Creatieve therapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Curretage",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Cyclothyme stoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Cystic Fibrosis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Cystitis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Cystoscopie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "DEXA onderzoek",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "DNA-onderzoek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "DVI vaatonderzoek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Dagbehandeling",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Dagbehandeling Huntington",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Dagbehandeling kwetsbare patiëntgroepen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Dagbehandeling lichamelijk gehandicapten (LG)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Dagbehandeling niet aangeboren hersenletsel (NAH)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Dagbehandeling voor sterk gestoord gedrag (SGLVG)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Dagopvang/ Verblijf Medische kindzorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Daisy-apparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Daisy-software",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Daisy-spelers",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Darmonderzoek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Darmpoliepen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Darmresectie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Debulking operatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Dekenboog voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Dekenboog voor langdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Delier",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Delirium dementie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Dementie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Dementie - Geriatrie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Dementie - Neurologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Depersonalisatie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Depressie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Dermatologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Dermatoloog",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Dexametrie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Diabetes",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Diabetes bij kinderen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Diabetes testmateriaal",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Diabetesmateriaal",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Diabetestestmateriaal",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Diabetische retinopathie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Diabetische voet",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Dialyse",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Dialysecentrum",
+    "category": "Instelling"
+  },
+  {
+    "name": "Dieetadvies",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Dieetpreparaten (drink)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Dieetpreparaten (drinkvoeding)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Dieetpreparaten (sondevoeding)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Dijbeenlift",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Dijbreuk",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Dikkedarm ontsteking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Dikkedarmkanker - Oncologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Dikkedarmkanker België",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Dissociatie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Dissociatieve stoornissen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Diëtetiek",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Diëtetiek bij de ziekte van Parkinson",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Diëtist",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Doofheid en gehoorverlies",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Doppleronderzoek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Dotteren",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Douchestoel",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Draagurinaals",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Draailakens voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Draailakens voor wentelsysteem voor langdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Draaischijf in bed voor langdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Draaischijf voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Drempelhulp",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Drinkhulp",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Drinkvoeding",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Droge ogen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Drugs-verslaving",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Druiper",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Drukvesten",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Duizeligheid",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Duizeligheidscentrum",
+    "category": "Instelling"
+  },
+  {
+    "name": "Dunne darm transplantatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Duplex-onderzoek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Dwangstoornissen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Dyspneu",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Dysport/ Botox",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Dysthemie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Dystonie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "EBV",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ebstein Barr Virus",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Echo (eerstelijns diagnostiek)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Echografie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Eerstelijnsverblijf (ELV) bij palliatief terminale zorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Eerstelijnsverblijf hoog complex",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Eerstelijnsverblijf laag complex",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Eerstelijnsverblijf palliatief terminale zorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Eerstelijnszorg bij specifieke chronische aandoeningen ouderen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Eerstelijnszorg bij specifieke chronische aandoeningen verstandelijk gehandicapten",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Eetapparaat",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Eetbuien",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Eetstoornissen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Eierstokkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Eierstokken verwijderen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Elastische kousen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Elektrocardiogram (ECG)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Elektronische handloep",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Elleboogorthese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Embolie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Endeldarmkanker - MDL",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Endeldarmkanker - Oncologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Endeldarmkanker België",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Endocrinologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Endometriose",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Endometrium kanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Endometriumcarcinoom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Endoscopische herniaoperatie - Neurochirurgie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Endoscopische herniaoperatie - Orthopedie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Enkelorthese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Enkelprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Epilepsie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Epilepsiecentrum",
+    "category": "Instelling"
+  },
+  {
+    "name": "Epithese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Erectieproblemen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Erfelijkheidsadvisering",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Erfelijkheidsonderzoek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Erfelijkheidsonderzoek vóór de geboorte",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Ergotherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Ergotherapie bij de ziekte van Parkinson",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Erysipelas",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Etalagebenen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Etalagebenen dotterbehandelingen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Evenwichtsstoornissen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Excoriatiestoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Extramurale behandeling",
+    "category": "Behandeling"
+  },
+  {
+    "name": "FM-apparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Facelift",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Facialisparese",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Farmacie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Farmacie (online)",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Fibromyalgie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Fijnvlekkige longafwijkingen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Fistel",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Fistelzakken",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Flaporen correctie - KNO",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Flaporen correctie - Plastische chirurgie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Flash Glucose Meter",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Flash Glucose Monitoring",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Fluorescentie-angiografie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Focuskliniek",
+    "category": "Instelling"
+  },
+  {
+    "name": "Fuch's endotheeldystrofie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Functieonderzoek (eerstelijns diagnostiek)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Fysiotherapeut",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Fysiotherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Fysiotherapie bij (lymf)oedeem",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Fysiotherapie bij COPD",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Fysiotherapie bij bekkenklachten",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Fysiotherapie bij de ziekte van Parkinson",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Fysiotherapie bij etalagebenen",
+    "category": "Specialisme"
+  },
+  {
+    "name": "GGZ",
+    "category": "Instelling"
+  },
+  {
+    "name": "GGZ (online)",
+    "category": "Instelling"
+  },
+  {
+    "name": "GGZ instelling",
+    "category": "Instelling"
+  },
+  {
+    "name": "GLI kinderen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Galblaasoperatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Galblaasverwijdering",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Galstenen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Galwegkanker (van de alvleesklier)",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Galwegkanker (van de lever)",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Galwegresectie (van de alvleesklier)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Galwegresectie (van de lever)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Gameverslaving",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ganglion aan de pols",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Gangreen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Gastric bypass",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Gastritis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Gastroenterologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Gastroscopie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Gastroënteroloog",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Geboortecentrum - bevallen",
+    "category": "Instelling"
+  },
+  {
+    "name": "Geboortecentrum - bevalling",
+    "category": "Instelling"
+  },
+  {
+    "name": "Gecombineerde Leefstijl Interventie (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Gecombineerde Leefstijl Interventie Kinderen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Geconfectioneerd maatwerk",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Gedeeltelijke gebitsprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Gedragsverslaving",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Geelzucht",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Geestelijke gezondheidszorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Geestelijke gezondheidszorg (online)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Geheugenproblemen - Geriatrie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Geheugenproblemen - Neurologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Gehoorapparaat",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Gehoorgangontsteking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Gehoorproblemen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Gelaatsprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Geleidehond",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Genderzorg (GGZ)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Geneeskunde van de huid",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Geneeskunde van de nieren, de urineleiders en de urinewegen",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Geneeskunde van het bewegingsapparaat (botten en gewrichten)",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Geneeskunde van het hart",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Geneeskunde van vrouwen",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Geneeskundige zorg voor specifieke patientgroepen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Geneesmiddelen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Geneesmiddelen (online)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Genitale wratten",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Geriatrie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Geriatrie fysiotherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Geriatrische Revalidatie Zorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Geriatrische Revalidatie Zorg (GRZ), overig",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Geriatrische revalidatiezorg (GRZ) na CVA",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Geriatrische revalidatiezorg (GRZ) na amputatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Geriatrische revalidatiezorg (GRZ) na electieve orthopedie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Geriatrische revalidatiezorg (GRZ) na trauma",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Gescheurd trommelvlies",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Gespecialiseerde verpleging",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Gestalttherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Gewichtsconsulent",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Gewrichtsslijtage",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Gezichtsbehandelingen (Acne)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Gezichtsbehandelingen (Camouflage)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Gezichtsbehandelingen (Ontharing door middel van elektrische epilatie)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Gezichtsbehandelingen (Ontharing door middel van laser)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Gezichtscorrectie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Gezichtsprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Gezichtsveldonderzoek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Geïnfecteerde heupprothese",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Geïnfecteerde knieprothese",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Gipssteun",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Glijlakens voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Glijlakens voor langdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Glutenovergevoeligheid",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Gonorroe",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Groeistoornissen bij kinderen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Groepsbehandeling Integrale Zorg Stotteren (IZS)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Gynaecologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Gynaecologische oncologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Gynaecoloog",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Gynecomastie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "HIV",
+    "category": "Aandoening"
+  },
+  {
+    "name": "HME-filter cassettes (b.v. Provox/Laryvox)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "HNP - Neurologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Haarnestcyste laserbehandeling",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Haarstuk",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Haaruittrekstoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Haarwerken",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Hallux valgus",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Halskraag",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Halslift",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Halve knieprothese operatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Handchirurgie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Handeczeem",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Handprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Hanen-ouderprogramma",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Haperende vinger (Heelkunde)",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Haptonomie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Hardnekkige depressie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hart ablatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Hart- en vaatkunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Hart-Long transplantatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Hartaanval",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hartafwijkingen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hartcentrum",
+    "category": "Instelling"
+  },
+  {
+    "name": "Hartdiagnostiek voor kinderen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hartfalen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hartgeruis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hartinfarct",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hartkatheterisatie - Cardiologie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Hartklepafwijking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hartklepinterventie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Hartkramp",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hartkunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Hartrevalidatie - Revalidatiegeneeskunde",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Hartritmestoornissen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hartspecialisme",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Hartspecialist",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Harttransplantatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Heelkunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Hematurie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hemi-knieprothese operatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Hepatectomie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Hepatitis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hernia Diafragmentica",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hernia nuclei pulposi - Neurologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hernia van de tussenwervelschijf - Neurologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Heroïne verslaving",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Herpes genitalis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Herpes simplex aan het oog",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hersen-, ruggenmergs- en zenuwaandoeningen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hersenbloeding",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Herseninfarct",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hersentumor",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hersteloperatie na sterilisatie man",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Hersteloperatie na sterilisatie vrouw",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Herstelzorg (Eerstelijnsverblijf)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Heupartrose",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Heupbreuk",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Heupfractuur",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Heupjicht",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Heupoperatie bij slijtage",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Heuporthese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Heupprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Heupslijtage",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hoge bloeddruk",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Homeopathie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Hoofd/halsbandages",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Hoofdbedekking",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Hoofdpijn",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hoog complex eerstelijnsverblijf (ELV), kortdurend verblijf",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Hooikoorts",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hoornvliesafwijking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hoornvliesbeschadiging",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hoornvliestransplantatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Hoorstukjes",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Hoortoestel",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Hoortoestellen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Hormonale tekorten",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hospice (Eerstelijnsverblijf)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Huidgeneeskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Huidinfecties",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Huidkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Huidkanker - Dermatologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Huidpulkstoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Huidspecialisme",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Huidspecialist",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Huidtherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Huidtherapie bij (lymf)oedeem",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Huidtransplantatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Huidziekten",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Huidziektenleer",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Huisarts",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Huisarts (online)",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Huisartsenlaboratorium",
+    "category": "Instelling"
+  },
+  {
+    "name": "Huisartsenpost",
+    "category": "Instelling"
+  },
+  {
+    "name": "Hulphond",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Hulpmiddelen voor toediening voeding (sonde, button, peg-catheter)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Hulpmiddelen voor toediening voeding (voedingspomp)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Hyperbare Geneeskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Hyperbare zuurstoftherapie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Hypercholeserolemie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hypermetropie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hypertensie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hyperthyreoidie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hypertoon zout (b.v. Hyaneb, Mucoclear, Nebusal)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Hypnotherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Hypotensie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Hypothyreoidie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "ICD Plaatsing",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Icterus",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ileus",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Implantaten in tandeloze kaak",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Implantaten tbv volledig klikgebit",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Implantaten tbv volledige overkappingsprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Impotentie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Impulsbeheersingsstoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "In-vitro Fertilisatie (IVF)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Incontinentie bij vrouw",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Incontinentie voor ontlasting",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Incontinentiemateriaal",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Infectieprothesiologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Infrarood apparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Infuuspompen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Infuusstandaard voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Ingegroeide teennagel",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Injectiemateriaal diabetes",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Injectiepennen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Injectiepennen met toebehoren",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Injectiepennen met toebehoren  (anders dan injectiematerialen voor infuus-, diabetes- en voedingszorg",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Injectiespuiten",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Injectiespuiten met toebehoren",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Injectiespuiten met toebehoren  (anders dan injectiematerialen voor infuus-, diabetes- en voedingszorg",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Inlegger",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Instelling voor jeugdtandverzorging",
+    "category": "Instelling"
+  },
+  {
+    "name": "Insulinepomp diabetes",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Insulinepomp met pods",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Integrale therapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Integratieve kindertherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Integratieve psychotherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Interne Geneeskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Internist",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Intraveneuze chemotherapie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Inwendige geneeskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Inwendige organen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Inwendigspecialisme",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Ischias",
+    "category": "Aandoening"
+  },
+  {
+    "name": "JTV",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Jicht",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Jongerenprogramma ‘Op eigen Benen’",
+    "category": "Aandoening"
+  },
+  {
+    "name": "KD2O Online (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "KNO",
+    "category": "Specialisme"
+  },
+  {
+    "name": "KNO arts",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Kaakchirurg",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Kaakcorrectie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Kaakgewrichtsklachten",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Kanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Kanker van de weke delen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Kankergeneeskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Kappenbrillen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Katheters bij continentstoma",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Katheters bij incontinentie",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Keel, Neus en Oren",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Keel- en neusamandelen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Keel-, Neus- en Oorspecialisme",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Keel-, neus- en oorheelkunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Keelamandelen verwijderen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Keizersnede",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Keratoconus",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ketenaanpak Kinderen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Ketenaanpak zorg en ondersteuning voor kinderen met overgewicht en obesitas",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Ketenzorg - Astma",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Ketenzorg - COPD",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Ketenzorg - Cardiovasculair Risico Management / CVR",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Ketenzorg - Diabetes Mellitus type 2",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Kijkonderzoek dikke darm",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Kijkonderzoek maag",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Kijkoperatie knie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Kinderarts",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Kinderfysiotherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Kindergeneeskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Kinderhartcentrum",
+    "category": "Instelling"
+  },
+  {
+    "name": "Kinderleefstijlcoach (KLSC)",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Kinderoefentherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Kinderspecialisme",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Kindzorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Kinesiologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Klachten door terugstromend maagzuur",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Klachten veroorzaakt door terugstroom van maaginhoud in slokdarm",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Klaplong",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Klassieke rughernia operatie - Neurochirurgie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Klassieke rughernia operatie - Orthopedie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Kleptomanie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Klierkoorts",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Klinisch (neuro)psycholoog",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Klinisch genetisch centrum",
+    "category": "Instelling"
+  },
+  {
+    "name": "Klinische genetica",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Knieartrose",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Kniebrace",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Knieoperatie bij slijtage",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Knieprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Knieslijtage",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Knobbeltje in de borst",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Koemelkeiwitallergie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Korsetten",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Korsetten confectie",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Korsetten maat",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Koudvuur",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Kousen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Kousen aan/uittrekker",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Kraamzorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Kwaadaardige tumoren",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Laag complex eerstelijnsverblijf (ELV), kortdurend verblijf",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Laboratoriumonderzoek (eerstelijns diagnostiek)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Lachgas m.b.t. mondzorg in bijzondere gevallen (roesje)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Lactatiedeskundige",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Lactatiekundige",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Lage bloeddruk",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Lage rug stenose - Neurochirurgie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Lage rug stenose - Orthopedie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Lancet",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Lancethouder",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Langzaamwerkende schildklier",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Langzaamwerkende schildklier (Hypothyreoïdie)",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Larynxcarcinoom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Laserbehandeling van de huid",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Leefstijlcoaching",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Leefstijlinterventie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Leer van de huid en huidziekten",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Leer van de nier- en blaasziekten",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Leer van huidziekten",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Leer van vrouwenziekten",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Leukemie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Levercirrose",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Leverkanker - Oncologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Leverontsteking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Leverresectie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Levertransplantatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Leverziekten",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Lichaamsgeoriënteerde / lichaamsgerichte psychotherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Licht traumatisch hoofdletsel",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Lichttherapie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Liesbreuk",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Lifestylecoach",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Liggend vervoer (taxivervoer)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Ligorthese/ ligschaal",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Lipo-filling",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Liposuctie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Littekenbreuk",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Littekencorrectie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Loepenbril",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Logopedie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Logopedie bij de ziekte van Parkinson",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Logopedie voor behandeling van afasie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Logopedie voor behandeling van stotteren",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Longarts",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Longcarcinoom - Oncologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Longembolie - Cardiologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Longemfyseem",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Longen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Longfunctieonderzoek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Longgeneeskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Longkanker - Oncologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Longkanker België",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Longontsteking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Longoperatie (Heelkunde)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Longoperatie (thoraxchirurgie)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Longresectie België",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Longrevalidatie - Revalidatiegeneeskunde",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Longspecialisme",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Longtransplantatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Longtumor",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Loopfiets",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Loophulpmiddelen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Loophulpmiddelen voor kinderen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Loophulpmiddelen voor slechtzienden",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Loopwagen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Loopwagen voor kinderen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Luchtring",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Lui oog",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Luiers",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Lumbale kanaalstenose - Orthopedie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Lumbale stenose - Neurochirurgie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Lumbale stenose - Orthopedie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Lumbosacrale discotemie - Neurochirurgie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Lumbosacrale discotomie - Orthopedie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Lymfeklierkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "MCD",
+    "category": "Aandoening"
+  },
+  {
+    "name": "MDL arts",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "ME",
+    "category": "Aandoening"
+  },
+  {
+    "name": "MRA beugel",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "MRI-onderzoek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "MS",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Maag, darm en leverziekten",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Maagband",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Maagbloeding",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Maagkanker - Oncologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Maagkanker België",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Maagperforatie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Maagresectie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Maagresectie België",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Maagtumor",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Maagverkleining",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Maagwandontsteking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Maagzweer",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Maatwerk borstprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Macula degeneratie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Malaria",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Mammacarcinoom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Mammaprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Mammillaprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Mammografie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Manie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Manische depressief",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Mantelzorgmakelaar",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Manuele therapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Maskeerder",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Medicatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Medicatie (online)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Medicijnen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Medicijnen (online)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Medische kindzorg (MKZ)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Medische kindzorg thuis",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Memorecorders",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Meniscusbeschadiging",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Menopauze",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Menstruatieklachten",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Mesothelioom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Microvasculaire dysfunctie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Middelgerelateerde verslaving",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Middenoorontsteking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Middenrifbreuk operatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Migraine",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Mini-PEP",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Mobiele beeldschermloep",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Mobiele beeldschermloep met voorleesapparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Mobiele concentrator",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Mobiele vernevelaar",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Mobiele zuurstofapparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Moedervlek controle",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Mohs chirurgie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Mond/keelholte kanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Mondhygiënist",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Mondziekten, kaak- en aangezichtschirurgie (MKA)",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Mondzorgbehandeling t.b.v. angst vanuit bijzondere tandheelkunde met algehele anesthesie (narcose)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Mondzorgbehandeling t.b.v. angst vanuit bijzondere tandheelkunde met lachgas (roesje)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Mononucleosis Infectiosa",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Morbide obesitas",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Morfinepomp",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Morfodysfore stoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Multidisciplinaire zorg - Astma",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Multidisciplinaire zorg - COPD",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Multidisciplinaire zorg - Cardiovasculair Risico Management / CVR",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Multidisciplinaire zorg - Diabetes Mellitus type 2",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Multipel myeloom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Multiple Sclerose",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Musculoskeletale geneeskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Myocardinfarct",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Myoom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Myopie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Narcistisch",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Narcoseleer",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Natuurgeneeskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Navelbreuk",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Neerplastiek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Nekhernia (niet operatief) - Neurologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Nekhernia operatie - Neurochirurgie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Nekhernia operatie - Orthopedie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Nekklachten",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Neonatale intensive care",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Neonatologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Netvliesafwijking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Netvliesloslating",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Neuro Endocriene Tumoren ( NET)",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Neurochirurg",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Neurochirurgie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Neurologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Neuroloog",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Neuromodulatie (Anesthesie)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Neusamandelen verwijderen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Neuscorrectie - KNO",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Neuscorrectie - Plastische chirurgie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Neuspoliepen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Neusprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Neustussenschot correctie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Nierbekkenontsteking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Nierkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Nierkanker België",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Nierkunde",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Nierspoelen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Niersteen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Niertransplantatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Niertumor",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Nierziekten",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Niet aangeboren hersenletsel",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Niet- eenvoudige loophulpmiddelen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Nieuw volledig klikgebit (op bestaande implantaten)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Nieuw volledig overkappingsprothese (op bestaande implantaten)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Nieuwe knie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Non-Hodgkin",
+    "category": "Aandoening"
+  },
+  {
+    "name": "OCD",
+    "category": "Aandoening"
+  },
+  {
+    "name": "OPEP-systeem (Aerobika)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "OSAS - Longgeneeskunde",
+    "category": "Aandoening"
+  },
+  {
+    "name": "OSAS - Neurologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "OSAS-apparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Obesitas",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Obsesieve compulsieve stoornissen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Obstetrie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Obstipatie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Oedeem",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Oefentherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Oefentherapie Cesar/Mensendieck",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Oefentherapie bij axiale spondyloartritis met ernstige functionele beperkingen",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Oefentherapie bij de ziekte van Parkinson",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Oefentherapie bij reumatoïde artritis met ernstige functionele beperkingen",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Oesofaguscarcinoom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Oesophagus kanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Oesophagus tumor",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Oftalmologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Omgevingsbesturing",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Oncologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Oncoloog",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Onderleggers",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Ondersteek",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Onderzoek voor geboorte",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ontsteking aan de darmen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ontsteking van de dikke darm",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ontsteking van een bijholte van de neusholte",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ontsteking van meerdere gewrichten",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ontwikkelingsstoornissen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Oogarts",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Oogheelkunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Ooglaseren",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Ooglidcorrectie - Oogheelkunde (Basisverzekering)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Ooglidcorrectie - Plastische Chirurgie (Basisverzekering)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Ooglidontsteking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Oogoperatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Oogpleister",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Oogprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Oorinfectie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Oorontsteking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Oorprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Oorstukje",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Oorsuizen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Open been",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Open hart operatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatie bij dikke darm kanker",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatie bij een hersentumor België",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatie bij endeldarmkanker",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatie bij hersentumor",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatie bij hoofd-hals oncologie – KNO",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatie bij hoofd-hals oncologie – MKA",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatie bij kanker van de weke delen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatie bij nierkanker",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatie bij oogkanker",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatie bij uitzaaiing in het buikvlies (HIPEC)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatie bij vulvakanker",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatie bij zaadbalkanker",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatieve behandeling of endovasculaire behandeling intracraniële vaatafwijking",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatieve behandeling van carotispathologie met betrekking tot autonoom zenuwstelsel",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatieve geneeskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Operatieve ingrepen bij stressincontinentie - Gynaecologie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Operatieve ingrepen bij stressincontinentie - Urologie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Optische hulpmiddelen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Opvangzakken",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Orthese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Orthodontie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Orthodontist",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Orthomanuele geneeskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Orthopedie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Orthopedische beugelapparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Orthopedische binnenschoen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Orthopedische en semi orthop. schoenen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Orthopedische en semi orthopedische schoenen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Orthopedische voorzieningen voor confectieschoenen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Osteopathie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Osteoporose",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Osteoporose - Interne Geneeskunde",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Otitis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Otitis media",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ovarium carcinoom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ovariumkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Overgangsconsulent",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Overige compressiehulpmiddelen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Overmatige transpiratie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Overschuifplanken",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "PB orthese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "PEP-apparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "PEP-masker",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "PGB indicatiestelling",
+    "category": "Behandeling"
+  },
+  {
+    "name": "PGB indicatiestelling voor kinderen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "PMR",
+    "category": "Aandoening"
+  },
+  {
+    "name": "PPD",
+    "category": "Aandoening"
+  },
+  {
+    "name": "PTED-operatie - Neurochirurgie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "PTED-operatie - Orthopedie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "PTZ",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Pacemaker",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Pads",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Palliatief terminale zorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Palliatieve zorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Pancreas transplantatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Pancreascarcinoom - Oncologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Pancreaskanker - Oncologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Pancreasresectie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Paniekstoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Parafiele stoornissen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Patchpomp",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Patiëntenlift",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Pediatrie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Peniscarcinoom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Peniskanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Percutane Transforaminale Endoscopische Discectomie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Percutane Transforaminale Endoscopische Discectomie - Orthopedie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Perslucht",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Personenalarmering",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Personenalarmeringsapparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Persoonlijke alarmeringssystemen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Persoonlijke verzorging en verpleging",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Persoonlijkheidsstoornissen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Pica",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Pigmentvlekken",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Pijnbestrijding",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Pijnbestrijding / Anesthesiologie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Pijnbestrijding, narcose en verdoving",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Plascondoom - condoomkatheters",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Plasproblemen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Plastisch chirurg",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Plastische chirurgie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Pneumonie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Pneumothorax",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Podotherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Podotherapie bij diabetes mellitus",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Podotherapie bij voetulcera",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Pols/handorthese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Polymyalgia rheumatica",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Polyurie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Positietrainer",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Post-Covid Expertisecentrum",
+    "category": "Instelling"
+  },
+  {
+    "name": "Posttraumatische Dystrofie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Prenataal erfelijkheidsonderzoek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Prenataal onderzoek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Prenatale diagnostiek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Preventieve voetzorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Preverbale logopedie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Prikkelbare darm syndroom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Prikkeling zenuwwortel onderrug",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Prikpen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Privékliniek",
+    "category": "Instelling"
+  },
+  {
+    "name": "Programma Beweegkuur (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Beweegkuur Gecombineerde Leeftsijl Interventie (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Beweegkuur Leefstijlcoach",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Beweegkuur Leefstijlinterventie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma CooL (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Cool - Miguide Gecombineerde Leefstijl Interventie (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Cool - Miguide Leefstijlcoach",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Cool - Miguide Leefstijlinterventie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Cool Gecombineerde Leefstijl Interventie (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Cool Leefstijlcoach",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Cool Leefstijlinterventie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma CoolMiGuide Gecombineerde Leefstijl Interventie (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma In Balans",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma KD2O online Gecombineerde Leefstijl Interventie (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma KD2O plus Gecombineerde Leefstijl Interventie (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Keer diabetes 2 om Gecombineerde Leefstijf Interventie (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Keer diabetes 2 om Leefstijlcoach",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Keer diabetes 2 om Leefstijlinterventie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Keer diabetes 2 om Online",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Keer diabetes 2 om Plus",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Otago",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma SSIB (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma SSIB Gecombineerde Leefstijl Interventie (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma SSIB Leefstijlcoach",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Slimmer (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Slimmer Gecombineerde Leefstijf Interventie (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Slimmer Leefstijlcoach",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Slimmer Leefstijlinterventie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Slimmer Online Gecombineerde Leefstijl Interventie (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Slimmer Online Leefstijlcoach",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Slimmer Powered by Ancora Gecombineerde Leefstijf Interventie (GLI)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Slimmer Powered by Ancora Leefstijlcoach",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Programma Slimmer Powered by Ancora Leefstijlinterventie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Prostaat tumor",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Prostaatkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Prostaatkanker België",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Prostaatklachten",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Prostatectomie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Protonencentrum",
+    "category": "Instelling"
+  },
+  {
+    "name": "Pruiken",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Psoriasis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Psychiater",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Psychologische motorische kindertherapie (PMKT)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Psychologische therapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Psycholoog",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Psychomotorische therapie (PMT)",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Psychoses en wanen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Psychosociale therapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Psychosomatische fysiotherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Psychosomatische oefentherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Psychosomatische stoornissen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Psychotherapeut",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Psychotherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Ptosisbrillen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Puistjes",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Pulmonologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Pyelonefritis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Radiologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Radioloog",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Radiotherapeut",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Radiotherapeutisch centra",
+    "category": "Instelling"
+  },
+  {
+    "name": "Radiotherapeutisch centrum",
+    "category": "Instelling"
+  },
+  {
+    "name": "Radiotherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Real-time glucose monitoring (volwassenen)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Real-time glucose monitoring kinderen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Realtime Continue Glucose Monitoring",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Rectumcarcinoom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Reflexzonetherapie/Voetreflextherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Refractieve lensimplantatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Regiefunctie complexe wondzorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Relatietherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Retinitis pigmentosa",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Reumatische aandoeningen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Reumatologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Reumatoloog",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Reumatoïde artritis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Revalidatie kinderen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Revalidatie volwassenen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Revalidatiearts",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Revalidatiecentrum",
+    "category": "Instelling"
+  },
+  {
+    "name": "Revalidatiegeneeskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Rhinophyma",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ringleiding",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Robotmanipulator",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Rode wangen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Rollakens voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Rollakens voor langdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Rollators voor kinderen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Rolstoel",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Rolstoelvervoer",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Rosacea",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ruggenmergstimulatie (Anesthesie)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Rughernia (niet operatief) - Neurologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Rugklachten - Anesthesiologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Rugklachten - Neurologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Rugklachten - Orthopedie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Rugpijn na een operatie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ruminatiestoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Rustpijn",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Rustpijn (vernauwing bloedvaten)",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Röntgenonderzoek (eerstelijns diagnostiek)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "SMR",
+    "category": "Aandoening"
+  },
+  {
+    "name": "SOLK",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Sarcoom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Schaamlipkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Schaamlipverkleining",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Schedelkap",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Schedelkap / valhelm",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Scheefstand grote teen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Scheelzien",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Schildklierkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Schildklierresectie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Schildkliertumor",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Schisis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Schisis - MKA",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Schizoaffectieve stoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Schizofrenie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Schouderontsteking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Schouderoperatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Schouderorthese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Scleralens met visuscorrectie",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Scleralens zonder visuscorrectie",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Scleraschaal",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Screening coloncarcinoom",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Screening darmkanker",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Seksuele problemen bij de man",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Seksuologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Sepsis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Shiatsu",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Siliconen prothese (hand, vinger, voet)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Sinusitis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Skin-Picking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Slaapapneu - KNO",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Slaapapneu - Longgeneeskunde",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Slaapapneu - Neurologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Slaapcentra",
+    "category": "Instelling"
+  },
+  {
+    "name": "Slaappositietrainer",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Slechthorend",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Slechtziend",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Sleeve",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Slijm ophoestapparatuur (Flutter/Shaker)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Slijm ophoestapparatuur (Flutter/Shaker/Pari-o-pep)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Slijmuitzuigapparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Sling",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Slokdarmcarcinoom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Slokdarmkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Slokdarmkanker België",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Slokdarmverwijdering",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Slokdarmverwijdering België",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Snelwerkende schildklier",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Snelwerkende schildklier (Hyperthyreoïdie)",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Soa-onderzoek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Sociale angststoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Soloapparatuur complex",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Soloapparatuur eenvoudig",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Somatische revalidatie (ALK)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Somatische symptoomstoornissen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Somatoforme stoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Sondevoeding",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Spalken",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Spataderen (medische indicatie) - Dermatologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Spataderen (medische indicatie) - Heelkunde",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Speciale rollators",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Specialisme van de huidziekten",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Specialistische kliniek",
+    "category": "Instelling"
+  },
+  {
+    "name": "Speltherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Spierreuma",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Spiraal verwijderen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Spiraaltje plaatsen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Spoelapparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Spondylodese - Neurochirurgie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Spondylodese - Orthopedie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Sportarts",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Sportblessures - Orthopedie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Sportblessures - Sportgeneeskunde",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Sportgeneeskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Spraak-taalproblemen (gehandicaptenzorg)",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Spraakversterker",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Spraakvervangend hulpmiddel",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Spraakvervangende software",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Spreekventielen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Sprekende bloedglucosetestmeter",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Sta-orthese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Sta-tafel",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Staar",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Stamboomonderzoek",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Standaard mondzorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Standsafwijking grote teen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Stembandpoliep",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Stemprothesen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Stemversterkers",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Sterilisatie man - Urologie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Sterilisatie vrouw - Gynaecologie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Steunkousen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Steunzolen (podotherapeut)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Stoelen kinderen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Stoma-artikelen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Stoma-materialen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Stomaplakken",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Stomazakken",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Stompkousen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Stoornis hartslag",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Stoppen met roken (SMR) - Begeleiding",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Stoppen met roken (SMR) - Groepstraining",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Stoppen met roken (SMR) - Online coaching",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Stoppen met roken (SMR) - Persoonlijke coaching",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Stoppen met roken (SMR) - Telefonische coaching",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Stoppen met roken - Groepstraining",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Stoppen met roken - Online coaching",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Stoppen met roken - Persoonlijke coaching",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Stoppen met roken - Telefonische coaching",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Stoppen met roken - begeleiding",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Strabismus",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Streamer",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Strottenhoofdkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Studie van de urine",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Suikerziekte",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Suikerziekte bij kinderen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Syfilis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Syndroom van Adie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Syndroom van Sjögren",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Systeemtherapie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "TBC",
+    "category": "Aandoening"
+  },
+  {
+    "name": "TENS-apparaat",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "TIA",
+    "category": "Aandoening"
+  },
+  {
+    "name": "TV ondertiteling voorlees apparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "TVT-operatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Taaislijmziekte",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Tafel",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Tafel (sta-tafel)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Tandarts",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Tandarts, algemene mondzorg, centrum voor mondzorg",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Tandartsangst vanuit bijzondere tandheelkunde met algehele anesthesie  (narcose)",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Tandartsangst vanuit bijzondere tandheelkunde met lachgas (roesje)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Tandheelkundig centrum",
+    "category": "Instelling"
+  },
+  {
+    "name": "Tandprotheticus",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Tandprotheticus (mondzorg)",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Tandprothetiek",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Taststok voor blinden en slechtzienden",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Taxivervoerder",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Te veel transpireren",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Teenkappen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Telescoopbril",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Termijn echo",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Termijn en bloedverlies echo",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Terminaal",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Terminale zorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Testis carcinoom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Testis kanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Testmateriaal Diabetes",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Teststrip",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Thoraxbandage",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Thoraxchirurgie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Thuiszorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Tijdelijke rimpelvullers",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Tillift",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Toebehoren insulinepomp",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Toiletsteun",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Toiletverhoger",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Tonsillectomie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Tracheacanule",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Tracheacanules",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Tracheostomabeschermers",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Tracheostomahulpmiddelen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Tranende ogen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Transferplank voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Transgenderzorg (met indicatie)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Trauma",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Traumatisch hoofdletsel",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Trigger finger (Heelkunde)",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Trippelstoelen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Trippelstoelen voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Trippelstoelen voor langdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Troebel hoornvlies",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Trombolyse",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Trombose",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Trombosedienst",
+    "category": "Instelling"
+  },
+  {
+    "name": "Trommelvliesbuisje plaatsen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Trommelvliesontsteking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Tuberculose",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Tumorengeneeskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "UWI",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Uitgezaaid melanoom (Melanoomcentrum)",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Uitleen hulpmiddelen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Ureteroscopie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Urineleidersteen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Urineopvangzakken",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Urineweginfectie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Urogynaecologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Urologie",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Uroloog",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "VKB",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Vallende ziekte",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Valpreventie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Vastzetten van ruggenwervels",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Verbandmiddelen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Verbandpakken",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Verbandschoenen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Verblijf intensieve kindzorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Verblijf medische kindzorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Verhoogd cholesterol",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Verklevingen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Verloskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Verloskundige zorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Vermeerderde urinelozing",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Vermijdende persoonlijkheidsstoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Vernauwing halswervelkanaal",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Vernauwing kransslagader",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Vernauwing van de halsslagader",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Vernevelaar",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Verpleegkundige dagopvang",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Verpleging",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Verpleging kinderen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Verpleging thuis",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Verruca vulgaris",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Verschrompeling van lever",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Verslaving",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Verslaving overig",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Verstevigende spalk, of correctie-apparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Verstijving van de wervelkolom door reuma",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Verstoorde lichaamsbeleving",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Verstopping",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Vervangende heupprothese bij infectie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Vervangende knieprothese bij infectie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Vervangende mantelzorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Vervoer integrale kindzorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Vervoer verpleegkundig kinderdagverblijf",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Verwijde aderen gezicht",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Verwijde buikaorta",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Verwijde buikslagader",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Verwijderen moedervlek - Dermatologie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Verwijderen moedervlek - Heelkunde",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Verwijderen onderhuids vetweefsel",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Verwijderen tussenwervelschijf",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Verwijderen van fibromen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Verwijdering van maag",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Verwijding van de aorta",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Verwijding van een slagader",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Verziendheid",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Verzorging kinderen",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Verzorging thuis",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Visueel gehandicaptenzorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Visueel zintuigelijk gehandicaptenzorg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Vleesboom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Vloeibare zuurstof (Ambulox)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Vochtophoping",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Voedingsadvies (zonder medische indicatie)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Voedingspomp met toebehoren",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Voedingssonde",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Voedselallergie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Voetprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Voetzorg bij diabetes mellitus",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Voetzorg bij verhoogd risico op voetulcera",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Volledig kunstgebit",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Volledige gebitsprothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Voorhoofdslift",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Voorhuidsaandoening - Urologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Voorleesapparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Voorlopige orthopedische schoenen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Voorste kruisband - heelkunde (operatief)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Voorste kruisband - orthopedie (operatief)",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Voorste kruisband operatie - heelkunde",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Voorste kruisband operatie - orthopedie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Voorste kruisbandreconstructie - Heelkunde",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Voorste kruisbandreconstructie - Orthopedie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Voortplantingsgeneeskunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Voorzetkamer",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Vrouw specifieke hartklachten",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Vrouwenhart",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Vruchtbaarheidsproblemen man",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Vruchtbaarheidsproblemen vrouw",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Vruchtwaterpunctie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Vulvakanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Vulvectomie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Waanbeelden",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Wegwerpluiers",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Wek- en waarschuwingsinstallaties",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Weke delen reuma",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Wenkbrauwlift",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Whiplash",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Wijkverpleging",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Wijnvlek",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Wild vlees",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Windring voor kortdurend gebruik",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Wondheelkunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Wondroos",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Wondverbandmiddelen",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Wratten",
+    "category": "Aandoening"
+  },
+  {
+    "name": "ZBC",
+    "category": "Instelling"
+  },
+  {
+    "name": "Zaadbalkanker",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Zelfstandig behandelcentrum",
+    "category": "Instelling"
+  },
+  {
+    "name": "Zenuwarts",
+    "category": "Zorgverlener"
+  },
+  {
+    "name": "Zenuwbehandeling buiten het ruggenmerg",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Zenuwcompressie syndroom",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Zenuwknoop aan de pols",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Zenuwkunde",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Zenuwontsteking",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ziekenhuis",
+    "category": "Instelling"
+  },
+  {
+    "name": "Ziekenvervoer",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Ziekte van Adenoid en Tonsillen",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ziekte van Crohn",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ziekte van Dupuytren - Plastische Chirurgie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ziekte van Dupuytren - Reumatologie",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ziekte van Graves",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ziekte van Hashimoto",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ziekte van Hodgkin",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ziekte van Kahler",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ziekte van Lyme",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ziekte van Marfan",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ziekte van Parkinson",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ziekte van Pfeiffer",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Ziekteangststoornis",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Zitkussens",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Zitorthese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Zorg geleverd door arts verstandelijk gehandicapten",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Zorg geleverd door gedragswetenschapper",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Zorg geleverd door specialist ouderengeneeskunde",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Zorg in een groep aan kwetsbare patienten",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Zorg in een groep lichamelijk gehandicapten of NAH",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Zorg in een groep patienten met de ziekte van Huntington",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Zorg in een groep voor patienten met sterk gestoord gedrag en een lichte verstandelijke beperking",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Zorg thuis",
+    "category": "Behandeling"
+  },
+  {
+    "name": "Zuigelingenvoeding",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Zuurstofapparatuur",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Zuurstofcilinders",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "Zwangerschap",
+    "category": "Aandoening"
+  },
+  {
+    "name": "Zwangerschapsspecialisme",
+    "category": "Specialisme"
+  },
+  {
+    "name": "Zwem(borst)prothese",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "irrigatiesets (obstipatie problematiek)",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "omleiding operatie",
+    "category": "Behandeling"
+  },
+  {
+    "name": "real time Continue Glucose Monitoring",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "rtCGM",
+    "category": "Hulpmiddel"
+  },
+  {
+    "name": "ruisje op hart",
+    "category": "Aandoening"
+  }
+]
