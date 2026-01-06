@@ -1,19 +1,32 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState, useRef, useEffect, useCallback } from "react";
-import { Search, Stethoscope, Building2 } from "lucide-react";
+import {
+  Search,
+  Stethoscope,
+  Building2,
+  Sparkles,
+  Loader2,
+} from "lucide-react";
 import suggestionsData from "../../data/suggestions.json";
+import { useServerFn } from "@tanstack/react-start";
+import { generateAISuggestions } from "@/_actions/ai-suggestion";
 
 export const Route = createFileRoute("/")({ component: App });
 
 type SearchTab = "zorg" | "naam";
 
 function App() {
+  const getAISuggestionsFn = useServerFn(generateAISuggestions);
+
   const [activeTab, setActiveTab] = useState<SearchTab>("zorg");
   const [searchQuery, setSearchQuery] = useState("");
   const [locationQuery, setLocationQuery] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
   const [selectedCountry, setSelectedCountry] = useState("NL");
+  const [aiSuggestions, setAiSuggestions] = useState<string[]>([]);
+  const [isLoadingAI, setIsLoadingAI] = useState(false);
+  const [showAISuggestions, setShowAISuggestions] = useState(false);
 
   const searchInputRef = useRef<HTMLInputElement>(null);
   const suggestionsRef = useRef<HTMLDivElement>(null);
@@ -111,6 +124,37 @@ function App() {
     );
   };
 
+  const getAISuggestions = async () => {
+    if (!searchQuery.trim()) return;
+
+    setIsLoadingAI(true);
+    setShowAISuggestions(true);
+    setShowSuggestions(false); // Close regular suggestions when showing AI suggestions
+
+    try {
+      const { data, error } = await getAISuggestionsFn({
+        data: { query: searchQuery },
+      });
+      if (error) {
+        console.error(error);
+        setAiSuggestions([]);
+      } else {
+        setAiSuggestions(data || []);
+      }
+    } catch (error) {
+      console.error("Error fetching AI suggestions:", error);
+      setAiSuggestions([]);
+    } finally {
+      setIsLoadingAI(false);
+    }
+  };
+
+  const selectAISuggestion = (suggestion: string) => {
+    setSearchQuery(suggestion);
+    setShowAISuggestions(false);
+    setAiSuggestions([]);
+  };
+
   return (
     <>
       {/* Hero Section */}
@@ -146,6 +190,21 @@ function App() {
                   Om welke zorg gaat het?
                 </label>
                 <div className="search-input-wrapper">
+                  {searchQuery.trim() && (
+                    <button
+                      type="button"
+                      className="ai-suggestion-icon-button"
+                      onClick={getAISuggestions}
+                      disabled={isLoadingAI}
+                      title="AI-aanbeveling"
+                    >
+                      {isLoadingAI ? (
+                        <Loader2 className="ai-button-icon" size={18} />
+                      ) : (
+                        <Sparkles className="ai-button-icon" size={18} />
+                      )}
+                    </button>
+                  )}
                   <Search className="search-icon" size={20} />
                   <input
                     ref={searchInputRef}
@@ -158,34 +217,62 @@ function App() {
                       setSearchQuery(e.target.value);
                       setShowSuggestions(true);
                       setHighlightedIndex(-1);
+                      // Reset AI suggestions when user types
+                      if (showAISuggestions) {
+                        setShowAISuggestions(false);
+                        setAiSuggestions([]);
+                      }
                     }}
                     onFocus={() => setShowSuggestions(true)}
                     onKeyDown={handleKeyDown}
                     autoComplete="off"
                   />
-                  {showSuggestions && filteredSuggestions.length > 0 && (
-                    <div
-                      className="suggestions-dropdown"
-                      ref={suggestionsRef}
-                      tabIndex={-1}
-                    >
-                      {filteredSuggestions.map((suggestion, index) => (
+                  {showSuggestions &&
+                    filteredSuggestions.length > 0 &&
+                    !showAISuggestions && (
+                      <div
+                        className="suggestions-dropdown"
+                        ref={suggestionsRef}
+                        tabIndex={-1}
+                      >
+                        {filteredSuggestions.map((suggestion, index) => (
+                          <div
+                            key={suggestion}
+                            ref={(el) => {
+                              suggestionItemsRef.current[index] = el;
+                            }}
+                            className={`suggestion-item ${
+                              index === highlightedIndex ? "highlighted" : ""
+                            }`}
+                            onClick={() => selectSuggestion(suggestion)}
+                            onMouseEnter={() => setHighlightedIndex(index)}
+                            tabIndex={-1}
+                          >
+                            <Stethoscope
+                              className="suggestion-icon"
+                              size={18}
+                            />
+                            <span className="suggestion-text">
+                              {highlightMatch(suggestion, searchQuery)}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  {showAISuggestions && aiSuggestions.length > 0 && (
+                    <div className="ai-suggestions-dropdown">
+                      <div className="ai-suggestions-header">
+                        <Sparkles size={16} />
+                        <span>AI-aanbevelingen</span>
+                      </div>
+                      {aiSuggestions.map((suggestion, index) => (
                         <div
-                          key={suggestion}
-                          ref={(el) => {
-                            suggestionItemsRef.current[index] = el;
-                          }}
-                          className={`suggestion-item ${
-                            index === highlightedIndex ? "highlighted" : ""
-                          }`}
-                          onClick={() => selectSuggestion(suggestion)}
-                          onMouseEnter={() => setHighlightedIndex(index)}
-                          tabIndex={-1}
+                          key={`${suggestion}-${index}`}
+                          className="ai-suggestion-item"
+                          onClick={() => selectAISuggestion(suggestion)}
                         >
                           <Stethoscope className="suggestion-icon" size={18} />
-                          <span className="suggestion-text">
-                            {highlightMatch(suggestion, searchQuery)}
-                          </span>
+                          <span className="suggestion-text">{suggestion}</span>
                         </div>
                       ))}
                     </div>
