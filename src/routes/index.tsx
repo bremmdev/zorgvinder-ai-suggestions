@@ -27,6 +27,7 @@ function App() {
   const [aiSuggestions, setAiSuggestions] = useState<string[]>([]);
   const [isLoadingAI, setIsLoadingAI] = useState(false);
   const [showAISuggestions, setShowAISuggestions] = useState(false);
+  const [helpInputQuery, setHelpInputQuery] = useState("");
 
   const searchInputRef = useRef<HTMLInputElement>(null);
   const suggestionsRef = useRef<HTMLDivElement>(null);
@@ -125,7 +126,7 @@ function App() {
   };
 
   const getAISuggestions = async () => {
-    if (!searchQuery.trim()) return;
+    if (!helpInputQuery.trim()) return;
 
     setIsLoadingAI(true);
     setShowAISuggestions(true);
@@ -133,7 +134,7 @@ function App() {
 
     try {
       const { data, error } = await getAISuggestionsFn({
-        data: { query: searchQuery },
+        data: { query: helpInputQuery },
       });
       if (error) {
         console.error(error);
@@ -153,6 +154,7 @@ function App() {
     setSearchQuery(suggestion);
     setShowAISuggestions(false);
     setAiSuggestions([]);
+    setHelpInputQuery(""); // Clear the help input
   };
 
   return (
@@ -184,52 +186,31 @@ function App() {
 
           {/* Search Form */}
           {activeTab === "zorg" ? (
-            <div className="search-form">
-              <div className="search-field">
-                <label className="search-label" htmlFor="zorg-search">
-                  Om welke zorg gaat het?
-                </label>
-                <div className="search-input-wrapper">
-                  {searchQuery.trim() && (
-                    <button
-                      type="button"
-                      className="ai-suggestion-icon-button"
-                      onClick={getAISuggestions}
-                      disabled={isLoadingAI}
-                      title="AI-aanbeveling"
-                    >
-                      {isLoadingAI ? (
-                        <Loader2 className="ai-button-icon" size={18} />
-                      ) : (
-                        <Sparkles className="ai-button-icon" size={18} />
-                      )}
-                    </button>
-                  )}
-                  <Search className="search-icon" size={20} />
-                  <input
-                    ref={searchInputRef}
-                    id="zorg-search"
-                    type="text"
-                    className="search-input"
-                    placeholder="Bijv. fysiotherapie, huisarts..."
-                    value={searchQuery}
-                    onChange={(e) => {
-                      setSearchQuery(e.target.value);
-                      setShowSuggestions(true);
-                      setHighlightedIndex(-1);
-                      // Reset AI suggestions when user types
-                      if (showAISuggestions) {
-                        setShowAISuggestions(false);
-                        setAiSuggestions([]);
-                      }
-                    }}
-                    onFocus={() => setShowSuggestions(true)}
-                    onKeyDown={handleKeyDown}
-                    autoComplete="off"
-                  />
-                  {showSuggestions &&
-                    filteredSuggestions.length > 0 &&
-                    !showAISuggestions && (
+            <>
+              <div className="search-form">
+                <div className="search-field">
+                  <label className="search-label" htmlFor="zorg-search">
+                    Om welke zorg gaat het?
+                  </label>
+                  <div className="search-input-wrapper">
+                    <Search className="search-icon" size={20} />
+                    <input
+                      ref={searchInputRef}
+                      id="zorg-search"
+                      type="text"
+                      className="search-input"
+                      placeholder="Bijv. fysiotherapie, huisarts..."
+                      value={searchQuery}
+                      onChange={(e) => {
+                        setSearchQuery(e.target.value);
+                        setShowSuggestions(true);
+                        setHighlightedIndex(-1);
+                      }}
+                      onFocus={() => setShowSuggestions(true)}
+                      onKeyDown={handleKeyDown}
+                      autoComplete="off"
+                    />
+                    {showSuggestions && filteredSuggestions.length > 0 && (
                       <div
                         className="suggestions-dropdown"
                         ref={suggestionsRef}
@@ -259,58 +240,105 @@ function App() {
                         ))}
                       </div>
                     )}
-                  {showAISuggestions && aiSuggestions.length > 0 && (
-                    <div className="ai-suggestions-dropdown">
-                      <div className="ai-suggestions-header">
-                        <Sparkles size={16} />
-                        <span>AI-aanbevelingen</span>
-                      </div>
-                      {aiSuggestions.map((suggestion, index) => (
-                        <div
-                          key={`${suggestion}-${index}`}
-                          className="ai-suggestion-item"
-                          onClick={() => selectAISuggestion(suggestion)}
-                        >
-                          <Stethoscope className="suggestion-icon" size={18} />
-                          <span className="suggestion-text">{suggestion}</span>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              </div>
-
-              <div className="search-field location-field">
-                <label className="search-label" htmlFor="location-search">
-                  In welke plaats of postcode
-                </label>
-                <div className="location-input-group">
-                  <div className="search-input-wrapper">
-                    <Building2 className="search-icon" size={20} />
-                    <input
-                      id="location-search"
-                      type="text"
-                      className="search-input location-input"
-                      placeholder="Bijv. Amsterdam, 1000AA..."
-                      value={locationQuery}
-                      onChange={(e) => setLocationQuery(e.target.value)}
-                      autoComplete="off"
-                    />
                   </div>
-                  <select
-                    className="country-dropdown"
-                    value={selectedCountry}
-                    onChange={(e) => setSelectedCountry(e.target.value)}
-                  >
-                    <option value="NL">NL</option>
-                    <option value="BE">BE</option>
-                    <option value="DE">DE</option>
-                  </select>
                 </div>
-              </div>
 
-              <button className="search-button">Zoeken</button>
-            </div>
+                <div className="search-field location-field">
+                  <label className="search-label" htmlFor="location-search">
+                    In welke plaats of postcode
+                  </label>
+                  <div className="location-input-group">
+                    <div className="search-input-wrapper">
+                      <Building2 className="search-icon" size={20} />
+                      <input
+                        id="location-search"
+                        type="text"
+                        className="search-input location-input"
+                        placeholder="Bijv. Amsterdam, 1000AA..."
+                        value={locationQuery}
+                        onChange={(e) => setLocationQuery(e.target.value)}
+                        autoComplete="off"
+                      />
+                    </div>
+                    <select
+                      className="country-dropdown"
+                      value={selectedCountry}
+                      onChange={(e) => setSelectedCountry(e.target.value)}
+                    >
+                      <option value="NL">NL</option>
+                      <option value="BE">BE</option>
+                      <option value="DE">DE</option>
+                    </select>
+                  </div>
+                </div>
+
+                <button className="search-button">Zoeken</button>
+              </div>
+              <div className="help-section">
+                <h2>Hulp nodig?</h2>
+                <p>
+                  Laat ons je helpen met je zoekopdracht. Vul in wat je zoekt of
+                  wat je nodig hebt.
+                </p>
+                <div className="help-input-wrapper">
+                  <input
+                    type="text"
+                    className="help-input"
+                    placeholder="Bijv. gebroken tand, rugpijn..."
+                    value={helpInputQuery}
+                    onChange={(e) => {
+                      setHelpInputQuery(e.target.value);
+                      if (showAISuggestions) {
+                        setShowAISuggestions(false);
+                        setAiSuggestions([]);
+                      }
+                    }}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter") {
+                        getAISuggestions();
+                      }
+                    }}
+                    autoComplete="off"
+                  />
+                  <button
+                    type="button"
+                    className="help-button"
+                    onClick={getAISuggestions}
+                    disabled={isLoadingAI || !helpInputQuery.trim()}
+                  >
+                    {isLoadingAI ? (
+                      <>
+                        <Loader2 size={18} />
+                        <span>Zoeken...</span>
+                      </>
+                    ) : (
+                      <>
+                        <Sparkles size={18} />
+                        <span>Krijg aanbevelingen</span>
+                      </>
+                    )}
+                  </button>
+                </div>
+                {showAISuggestions && aiSuggestions.length > 0 && (
+                  <div className="ai-suggestions-dropdown help-suggestions">
+                    <div className="ai-suggestions-header">
+                      <Sparkles size={16} />
+                      <span>AI-aanbevelingen</span>
+                    </div>
+                    {aiSuggestions.map((suggestion, index) => (
+                      <div
+                        key={`${suggestion}-${index}`}
+                        className="ai-suggestion-item"
+                        onClick={() => selectAISuggestion(suggestion)}
+                      >
+                        <Stethoscope className="suggestion-icon" size={18} />
+                        <span className="suggestion-text">{suggestion}</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </>
           ) : (
             <div className="search-form">
               <div className="search-field" style={{ flex: 2 }}>

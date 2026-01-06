@@ -546,3 +546,101 @@ body {
 .ai-suggestions-dropdown::-webkit-scrollbar-thumb:hover {
   background: #ccc;
 }
+
+/* Help Section */
+.help-section {
+  margin-top: 32px;
+  padding: 24px;
+  background-color: var(--cz-background-grey);
+  border-radius: 8px;
+  position: relative;
+}
+
+.help-section h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--cz-text);
+  margin: 0 0 8px 0;
+}
+
+.help-section p {
+  font-size: 1rem;
+  color: var(--cz-text-light);
+  margin: 0 0 16px 0;
+  line-height: 1.5;
+}
+
+.help-input-wrapper {
+  display: flex;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.help-input {
+  flex: 1;
+  padding: 14px 16px;
+  font-size: 1rem;
+  border: 2px solid var(--cz-border);
+  border-radius: 8px;
+  outline: none;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+  background-color: white;
+}
+
+.help-input:focus {
+  border-color: var(--cz-input-focus);
+  box-shadow: 0 0 0 3px rgba(228, 4, 41, 0.15);
+}
+
+.help-input::placeholder {
+  color: #999;
+}
+
+.help-button {
+  padding: 14px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: var(--cz-primary);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.help-button:hover:not(:disabled) {
+  background-color: var(--cz-primary-dark);
+}
+
+.help-button:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.help-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.help-button svg {
+  flex-shrink: 0;
+}
+
+.help-button:disabled svg {
+  animation: spin 0.8s linear infinite;
+}
+
+.help-suggestions {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 24px;
+  right: 24px;
+  margin-top: 0;
+}
