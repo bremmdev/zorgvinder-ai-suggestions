@@ -2,15 +2,23 @@ import { Stethoscope, Sparkles, Loader2 } from "lucide-react";
 import { useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
 import { generateAISuggestions } from "@/_actions/ai-suggestion";
+import { useSearch } from "@tanstack/react-router";
 
 type Props = {
   onSelectAISuggestion: (suggestion: string) => void;
 };
 
+type AISuggestion = {
+  suggestion: string;
+  explanation?: string;
+};
+
 export function AISuggestions({ onSelectAISuggestion }: Props) {
   const getAISuggestionsFn = useServerFn(generateAISuggestions);
 
-  const [aiSuggestions, setAiSuggestions] = useState<string[]>([]);
+  const { explanations } = useSearch({ from: "/" });
+  const withExplanations = Boolean(explanations);
+  const [aiSuggestions, setAiSuggestions] = useState<AISuggestion[]>([]);
   const [isLoadingAI, setIsLoadingAI] = useState(false);
   const [showAISuggestions, setShowAISuggestions] = useState(false);
   const [helpInputQuery, setHelpInputQuery] = useState("");
@@ -19,7 +27,7 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
     onSelectAISuggestion(suggestion);
     setShowAISuggestions(false);
     setAiSuggestions([]);
-    setHelpInputQuery(""); // Clear the help input
+    setHelpInputQuery("");
   };
 
   const getAISuggestions = async () => {
@@ -30,7 +38,7 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
 
     try {
       const { data, error } = await getAISuggestionsFn({
-        data: { query: helpInputQuery },
+        data: { query: helpInputQuery, withExplanations: withExplanations },
       });
       if (error) {
         console.error(error);
@@ -106,10 +114,18 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
             <div
               key={`${suggestion}-${index}`}
               className="ai-suggestion-item"
-              onClick={() => selectAISuggestion(suggestion)}
+              onClick={() => selectAISuggestion(suggestion.suggestion)}
             >
-              <Stethoscope className="suggestion-icon" size={18} />
-              <span className="suggestion-text">{suggestion}</span>
+              <span className="suggestion-item-content">
+                <Stethoscope className="suggestion-icon" size={18} />
+                <span className="suggestion-text">{suggestion.suggestion}</span>
+              </span>
+
+              {suggestion.explanation && (
+                <span className="suggestion-explanation">
+                  {suggestion.explanation}
+                </span>
+              )}
             </div>
           ))}
         </div>

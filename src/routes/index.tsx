@@ -1,7 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
-
 import { SearchTabs } from "@/components/Tabs";
-export const Route = createFileRoute("/")({ component: App });
+
+type SearchParams = {
+  explanations: string;
+};
+
+export const Route = createFileRoute("/")({
+  validateSearch: (search: SearchParams) => search,
+  component: App,
+});
 
 function App() {
   return (
