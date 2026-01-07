@@ -462,10 +462,6 @@ body {
   flex-shrink: 0;
 }
 
-.ai-suggestion-icon-button:disabled .ai-button-icon {
-  animation: spin 0.8s linear infinite;
-}
-
 /* AI Suggestions Dropdown */
 .ai-suggestions-dropdown {
   position: absolute;
@@ -631,10 +627,6 @@ body {
 
 .help-button svg {
   flex-shrink: 0;
-}
-
-.help-button:disabled svg {
-  animation: spin 0.8s linear infinite;
 }
 
 .help-suggestions {
