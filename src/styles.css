@@ -258,10 +258,6 @@ body {
   pointer-events: none;
 }
 
-.search-input-wrapper:has(.ai-suggestion-icon-button) .search-icon {
-  left: 58px;
-}
-
 .search-button {
   padding: 14px 32px;
   font-size: 1rem;
@@ -421,41 +417,26 @@ body {
 }
 
 /* AI Suggestion Icon Button */
-.ai-suggestion-icon-button {
-  position: absolute;
-  left: 14px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 36px;
-  height: 36px;
+.ai-suggestion-row .ai-suggestion-icon-button {
+  width: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: transparent;
+  background-color: var(--cz-background-grey);
   border: none;
-  border-radius: 6px;
+  border-radius: 0;
   cursor: pointer;
   color: var(--cz-primary);
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease,
-    transform 0.1s ease;
-  z-index: 10;
-  padding: 0;
+  transition: background-color 0.2s ease;
+  flex-shrink: 0;
 }
 
-.ai-suggestion-icon-button:hover:not(:disabled) {
-  background-color: rgba(228, 4, 41, 0.1);
-  color: var(--cz-primary-dark);
+.ai-suggestion-row .ai-suggestion-icon-button:hover {
+  background-color: var(--cz-background-grey);
 }
 
-.ai-suggestion-icon-button:active:not(:disabled) {
-  transform: translateY(-50%) scale(0.95);
-}
-
-.ai-suggestion-icon-button:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
+.ai-suggestion-row .ai-suggestion-icon-button .suggestion-icon {
+  color: var(--cz-primary);
 }
 
 .ai-button-icon {
@@ -489,31 +470,35 @@ body {
   flex-shrink: 0;
 }
 
+.ai-suggestion-row {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+}
+
+.ai-suggestion-row:not(:last-child) {
+  border-bottom: 1px solid #f0f0f0;
+}
+
 .ai-suggestion-item {
   padding: 12px 16px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
   gap: 12px;
   transition: background-color 0.15s ease;
   background-color: white;
+  flex: 1;
 }
 
-.ai-suggestion-item .suggestion-item-content {
+.ai-suggestion-item .ai-suggestion-item-content {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   gap: 12px;
 }
 
 .ai-suggestion-item:hover {
   background-color: var(--cz-background-grey);
-}
-
-.ai-suggestion-item:not(:last-child) {
-  border-bottom: 1px solid #f0f0f0;
 }
 
 .ai-suggestion-item .suggestion-icon {

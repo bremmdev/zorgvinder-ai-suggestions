@@ -1,8 +1,13 @@
-import { Stethoscope, Sparkles, Loader2 } from "lucide-react";
+import {
+  Stethoscope,
+  Sparkles,
+  Loader2,
+  ChevronDown,
+  ChevronUp,
+} from "lucide-react";
 import { useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
 import { generateAISuggestions } from "@/_actions/ai-suggestion";
-import { useSearch } from "@tanstack/react-router";
 
 type Props = {
   onSelectAISuggestion: (suggestion: string) => void;
@@ -10,20 +15,23 @@ type Props = {
 
 type AISuggestion = {
   suggestion: string;
-  explanation?: string;
+  explanation: string;
 };
 
 export function AISuggestions({ onSelectAISuggestion }: Props) {
   const getAISuggestionsFn = useServerFn(generateAISuggestions);
 
-  const { explanations } = useSearch({ from: "/" });
-  const withExplanations = Boolean(explanations);
   const [aiSuggestions, setAiSuggestions] = useState<AISuggestion[]>([]);
   const [isLoadingAI, setIsLoadingAI] = useState(false);
   const [showAISuggestions, setShowAISuggestions] = useState(false);
   const [helpInputQuery, setHelpInputQuery] = useState("");
+  const [toolTipIndex, setToolTipIndex] = useState<number | null>(null);
 
-  const selectAISuggestion = (suggestion: string) => {
+  const selectAISuggestion = (
+    e: React.MouseEvent<HTMLDivElement>,
+    suggestion: string
+  ) => {
+    e.stopPropagation();
     onSelectAISuggestion(suggestion);
     setShowAISuggestions(false);
     setAiSuggestions([]);
@@ -35,10 +43,11 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
 
     setIsLoadingAI(true);
     setShowAISuggestions(true);
+    setToolTipIndex(null);
 
     try {
       const { data, error } = await getAISuggestionsFn({
-        data: { query: helpInputQuery, withExplanations: withExplanations },
+        data: { query: helpInputQuery },
       });
       if (error) {
         console.error(error);
@@ -51,6 +60,14 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
       setAiSuggestions([]);
     } finally {
       setIsLoadingAI(false);
+    }
+  };
+
+  const handleExpandExplanation = (index: number) => {
+    if (toolTipIndex === index) {
+      setToolTipIndex(null);
+    } else {
+      setToolTipIndex(index);
     }
   };
 
@@ -111,21 +128,34 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
             <span>AI-aanbevelingen</span>
           </div>
           {aiSuggestions.map((suggestion, index) => (
-            <div
-              key={`${suggestion}-${index}`}
-              className="ai-suggestion-item"
-              onClick={() => selectAISuggestion(suggestion.suggestion)}
-            >
-              <span className="suggestion-item-content">
-                <Stethoscope className="suggestion-icon" size={18} />
-                <span className="suggestion-text">{suggestion.suggestion}</span>
-              </span>
-
-              {suggestion.explanation && (
-                <span className="suggestion-explanation">
-                  {suggestion.explanation}
+            <div key={`${suggestion}-${index}`} className="ai-suggestion-row">
+              <div
+                className="ai-suggestion-item"
+                onClick={(e: React.MouseEvent<HTMLDivElement>) =>
+                  selectAISuggestion(e, suggestion.suggestion)
+                }
+              >
+                <span className="ai-suggestion-item-content">
+                  <Stethoscope className="suggestion-icon" size={18} />
+                  {suggestion.suggestion}
                 </span>
-              )}
+                {suggestion.explanation && toolTipIndex === index && (
+                  <span className="suggestion-explanation">
+                    {suggestion.explanation}
+                  </span>
+                )}
+              </div>
+              <button
+                type="button"
+                className="ai-suggestion-icon-button"
+                onClick={() => handleExpandExplanation(index)}
+              >
+                {toolTipIndex === index ? (
+                  <ChevronUp className="suggestion-icon" size={18} />
+                ) : (
+                  <ChevronDown className="suggestion-icon" size={18} />
+                )}
+              </button>
             </div>
           ))}
         </div>

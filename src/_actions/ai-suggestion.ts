@@ -5,22 +5,22 @@ import { createSuggestionPrompt } from "../../utils/prompt";
 import { z } from "zod";
 
 export const generateAISuggestions = createServerFn()
-  .inputValidator((d: { query: string; withExplanations?: boolean }) => d)
+  .inputValidator((d: { query: string }) => d)
   .handler(async ({ data }) => {
     const openrouter = createOpenRouter({
       apiKey: process.env.OPENROUTER_API_KEY as string,
     });
 
-    const schema = data.withExplanations
-      ? z.array(z.object({ suggestion: z.string(), explanation: z.string() }))
-      : z.array(z.object({ suggestion: z.string() }));
+    const schema = z.array(
+      z.object({ suggestion: z.string(), explanation: z.string() })
+    );
 
     try {
       const { object: suggestions } = await generateObject({
         model: openrouter.chat(
           "google/gemini-2.5-flash-lite-preview-09-2025"
         ) as LanguageModel,
-        prompt: createSuggestionPrompt(data.query, data.withExplanations),
+        prompt: createSuggestionPrompt(data.query),
         schema,
       });
 

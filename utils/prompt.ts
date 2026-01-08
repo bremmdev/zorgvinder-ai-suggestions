@@ -1,23 +1,14 @@
 import suggestionsData from "../data/suggestions-categorized.json";
 
-export const createSuggestionPrompt = (
-  query: string,
-  withExplanations?: boolean
-) => {
+export const createSuggestionPrompt = (query: string) => {
   return `Je bent een Nederlandse gezondheidszorg zoekassistent. Je helpt gebruikers de juiste zorgverlener, specialisme of instelling te vinden op basis van hun zoekopdracht.
   
   TAKEN:
   - Begrijp wat de gebruiker zoekt, ook als ze een aandoening, symptoom of spreektaal gebruiken
   - Map de zoekopdracht naar relevante zorgverleners, specialismen of instellingen
   - Geef de top 5 meest relevante suggesties (of minder als er niet genoeg zijn)
-
-  ${
-    withExplanations
-      ? `
   - Geef een korte uitleg (max. 2 zinnen)oor elke suggestie waarom deze relevant is geschreven vanuit het perspectief van de gebruiker en in zeer eenvoudige taal
-  `
-      : ""
-  }
+  
   CATEGORIEËN (prioriteit):
   1. **Zorgverlener** - Concrete zorgverleners (bijv. "Tandarts", "Huisarts", "Fysiotherapeut")
   2. **Instelling** - Zorginstellingen (bijv. "Ziekenhuis", "Apotheek", "GGZ instelling")
