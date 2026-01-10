@@ -1,8 +1,7 @@
 const confidenceToClass = (confidence: number) => {
   if (confidence >= 0.9) return "high";
   if (confidence >= 0.7) return "medium";
-  if (confidence >= 0.5) return "low";
-  return "negative";
+  return "low";
 };
 
 const confidenceToText = (confidence: number) => {

@@ -37,15 +37,20 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
     setHelpInputQuery("");
   };
 
-  const getAISuggestions = async () => {
-    if (!helpInputQuery.trim()) return;
+  const getAISuggestions = async (query?: string) => {
+    const queryToUse = query || helpInputQuery;
+
+    if (!queryToUse.trim()) return;
 
     setIsLoadingAI(true);
     setToolTipIndex(null);
+    setHelpInputQuery(queryToUse);
+    setShowAISuggestions(false);
+    setAiSuggestions([]);
 
     try {
       const { data, error } = await getAISuggestionsFn({
-        data: { query: helpInputQuery },
+        data: { query: queryToUse },
       });
       if (error) {
         console.error(error);
@@ -68,6 +73,17 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
     } else {
       setToolTipIndex(index);
     }
+  };
+
+  const onAfterRecord = (transcript: string) => {
+    setHelpInputQuery(transcript);
+    getAISuggestions(transcript);
+  };
+
+  const onRecordStart = () => {
+    setHelpInputQuery("");
+    setShowAISuggestions(false);
+    setAiSuggestions([]);
   };
 
   const shouldShowAISuggestions = showAISuggestions && aiSuggestions.length > 0;
@@ -104,14 +120,14 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
 
         <ClientOnly>
           <RecordSpeech
-            setHelpInputQuery={setHelpInputQuery}
-            setShowAISuggestions={setShowAISuggestions}
+            onAfterRecord={onAfterRecord}
+            onRecordStart={onRecordStart}
           />
         </ClientOnly>
         <button
           type="button"
           className="help-button"
-          onClick={getAISuggestions}
+          onClick={() => getAISuggestions()}
           disabled={isLoadingAI || !helpInputQuery.trim()}
         >
           {isLoadingAI ? (

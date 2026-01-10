@@ -2,14 +2,11 @@ import { Mic, MicOff } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 
 type Props = {
-  setHelpInputQuery: React.Dispatch<React.SetStateAction<string>>;
-  setShowAISuggestions: React.Dispatch<React.SetStateAction<boolean>>;
+  onRecordStart: () => void;
+  onAfterRecord: (transcript: string) => void; // Only called for final results
 };
 
-export function RecordSpeech({
-  setHelpInputQuery,
-  setShowAISuggestions,
-}: Props) {
+export function RecordSpeech({ onRecordStart, onAfterRecord }: Props) {
   const [isRecording, setIsRecording] = useState(false);
   const recognitionRef = useRef<any>(null);
 
@@ -30,11 +27,19 @@ export function RecordSpeech({
 
     recognition.onresult = (event: any) => {
       let finalTranscript = "";
+
       for (let i = 0; i < event.results.length; i++) {
-        finalTranscript += event.results[i][0].transcript;
+        const result = event.results[i];
+        if (result.isFinal) {
+          finalTranscript += result[0].transcript;
+        }
       }
-      console.log("Transcript:", finalTranscript);
-      setHelpInputQuery(finalTranscript);
+
+      // Only trigger AI suggestions when we have a final result
+      if (finalTranscript) {
+        console.log("Final transcript:", finalTranscript);
+        onAfterRecord(finalTranscript);
+      }
     };
 
     recognition.onerror = (event: any) => {
@@ -57,9 +62,8 @@ export function RecordSpeech({
   const handleRecordSpeech = () => {
     if (recognitionRef.current) {
       recognitionRef.current.start();
-      setHelpInputQuery("");
-      setShowAISuggestions(false);
       setIsRecording(true);
+      onRecordStart();
     }
   };
 
