@@ -530,6 +530,29 @@ body {
   background: #ccc;
 }
 
+/* Badge */
+.badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+
+  &.high {
+    background-color: oklch(62.7% 0.194 149.214);
+    color: white;
+  }
+
+  &.medium {
+    background-color: oklch(72.3% 0.219 149.579);
+    color: white;
+  }
+
+  &.low {
+    background-color: oklch(75% 0.183 55.934);
+    color: white;
+  }
+}
+
 /* Help Section */
 .help-section {
   margin-top: 32px;

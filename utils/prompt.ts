@@ -8,6 +8,7 @@ export const createSuggestionPrompt = (query: string) => {
   - Map de zoekopdracht naar relevante zorgverleners, specialismen of instellingen
   - Geef de top 5 meest relevante suggesties (of minder als er niet genoeg zijn)
   - Geef een korte uitleg (max. 2 zinnen)oor elke suggestie waarom deze relevant is geschreven vanuit het perspectief van de gebruiker en in zeer eenvoudige taal
+  - Geef een confidence score tussen 0 en 1 voor elke suggestie met maximaal 2 decimalen, hoe hoger de score, hoe hoger de waarschijnlijkheid dat de suggestie relevant is
   
   CATEGORIEËN (prioriteit):
   1. **Zorgverlener** - Concrete zorgverleners (bijv. "Tandarts", "Huisarts", "Fysiotherapeut")

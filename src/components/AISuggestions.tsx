@@ -8,14 +8,11 @@ import {
 import { useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
 import { generateAISuggestions } from "@/_actions/ai-suggestion";
+import { AISuggestion } from "@/types";
+import { Badge } from "./Badge";
 
 type Props = {
   onSelectAISuggestion: (suggestion: string) => void;
-};
-
-type AISuggestion = {
-  suggestion: string;
-  explanation: string;
 };
 
 export function AISuggestions({ onSelectAISuggestion }: Props) {
@@ -74,6 +71,8 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
   const shouldShowAISuggestions = showAISuggestions && aiSuggestions.length > 0;
   const shouldShowZeroResults =
     !isLoadingAI && showAISuggestions && aiSuggestions.length === 0;
+
+  console.log(aiSuggestions);
 
   return (
     <div className="help-section">
@@ -138,6 +137,7 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
                 <span className="ai-suggestion-item-content">
                   <Stethoscope className="suggestion-icon" size={18} />
                   {suggestion.suggestion}
+                  <Badge confidence={suggestion.confidence} />
                 </span>
                 {suggestion.explanation && toolTipIndex === index && (
                   <span className="suggestion-explanation">
