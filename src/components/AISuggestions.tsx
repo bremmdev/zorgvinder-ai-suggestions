@@ -10,6 +10,8 @@ import { useServerFn } from "@tanstack/react-start";
 import { generateAISuggestions } from "@/_actions/ai-suggestion";
 import { AISuggestion } from "@/types";
 import { Badge } from "./Badge";
+import { RecordSpeech } from "./RecordSpeech";
+import { ClientOnly } from "@tanstack/react-router";
 
 type Props = {
   onSelectAISuggestion: (suggestion: string) => void;
@@ -39,7 +41,6 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
     if (!helpInputQuery.trim()) return;
 
     setIsLoadingAI(true);
-    setShowAISuggestions(true);
     setToolTipIndex(null);
 
     try {
@@ -51,6 +52,7 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
         setAiSuggestions([]);
       } else {
         setAiSuggestions(data || []);
+        setShowAISuggestions(true);
       }
     } catch (error) {
       console.error("Error fetching AI suggestions:", error);
@@ -71,8 +73,6 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
   const shouldShowAISuggestions = showAISuggestions && aiSuggestions.length > 0;
   const shouldShowZeroResults =
     !isLoadingAI && showAISuggestions && aiSuggestions.length === 0;
-
-  console.log(aiSuggestions);
 
   return (
     <div className="help-section">
@@ -101,6 +101,13 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
           }}
           autoComplete="off"
         />
+
+        <ClientOnly>
+          <RecordSpeech
+            setHelpInputQuery={setHelpInputQuery}
+            setShowAISuggestions={setShowAISuggestions}
+          />
+        </ClientOnly>
         <button
           type="button"
           className="help-button"
