@@ -98,32 +98,34 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
         nodig hebt.
       </p>
       <div className="help-input-wrapper">
-        <input
-          type="text"
-          className="help-input"
-          placeholder="Bijv. gebroken tand, rugpijn..."
-          value={helpInputQuery}
-          onChange={(e) => {
-            setHelpInputQuery(e.target.value);
-            if (showAISuggestions) {
-              setShowAISuggestions(false);
-              setAiSuggestions([]);
-            }
-          }}
-          onKeyDown={(e) => {
-            if (e.key === "Enter") {
-              getAISuggestions();
-            }
-          }}
-          autoComplete="off"
-        />
-
-        <ClientOnly>
-          <RecordSpeech
-            onAfterRecord={onAfterRecord}
-            onRecordStart={onRecordStart}
+        <div className="help-input-container">
+          <input
+            type="text"
+            className="help-input"
+            placeholder="Bijv. gebroken tand, rugpijn..."
+            value={helpInputQuery}
+            onChange={(e) => {
+              setHelpInputQuery(e.target.value);
+              if (showAISuggestions) {
+                setShowAISuggestions(false);
+                setAiSuggestions([]);
+              }
+            }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                getAISuggestions();
+              }
+            }}
+            autoComplete="off"
           />
-        </ClientOnly>
+
+          <ClientOnly>
+            <RecordSpeech
+              onAfterRecord={onAfterRecord}
+              onRecordStart={onRecordStart}
+            />
+          </ClientOnly>
+        </div>
         <button
           type="button"
           className="help-button"

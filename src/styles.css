@@ -560,36 +560,36 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-}
 
-.record-speech-button {
-  background-color: var(--cz-primary);
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  white-space: nowrap;
-  font-size: 1rem;
-  font-weight: 600;
-  color: white;
-  height: 52px;
-  padding: 0 16px;
-}
+  .record-speech-button {
+    background-color: var(--cz-primary);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    height: 52px;
+    padding: 0 16px;
 
-.record-speech-button:hover {
-  background-color: var(--cz-primary-dark);
-}
+    &:hover {
+      background-color: var(--cz-primary-dark);
+    }
 
-.record-speech-button.recording {
-  background-color: #dc2626;
-  animation: pulse-recording 1.5s ease-in-out infinite;
-}
+    &.recording {
+      background-color: #dc2626;
+      animation: pulse-recording 1.5s ease-in-out infinite;
+    }
 
-.record-speech-button.recording:hover {
-  background-color: #b91c1c;
+    &.recording:hover {
+      background-color: #b91c1c;
+    }
+  }
 }
 
 @keyframes pulse-recording {
@@ -638,30 +638,43 @@ body {
 
 .help-input-wrapper {
   display: flex;
-  gap: 12px;
+  flex-direction: column;
+  gap: 8px;
   align-items: stretch;
-}
 
-.help-input {
-  flex: 1;
-  padding: 14px 16px;
-  font-size: 1rem;
-  border: 2px solid var(--cz-border);
-  border-radius: 8px;
-  outline: none;
-  transition:
-    border-color 0.2s ease,
-    box-shadow 0.2s ease;
-  background-color: white;
-}
+  .help-input-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    gap: 8px;
+    align-items: stretch;
+  }
 
-.help-input:focus {
-  border-color: var(--cz-input-focus);
-  box-shadow: 0 0 0 3px rgba(228, 4, 41, 0.15);
-}
+  .help-input {
+    flex: 1;
+    padding: 14px 16px;
+    font-size: 1rem;
+    border: 2px solid var(--cz-border);
+    border-radius: 8px;
+    outline: none;
+    transition:
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
+    background-color: white;
 
-.help-input::placeholder {
-  color: #999;
+    &:focus {
+      border-color: var(--cz-input-focus);
+      box-shadow: 0 0 0 3px rgba(228, 4, 41, 0.15);
+    }
+
+    &::placeholder {
+      color: #999;
+    }
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 }
 
 .help-button {
