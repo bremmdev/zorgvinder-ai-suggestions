@@ -119,12 +119,12 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
             autoComplete="off"
           />
 
-          <ClientOnly>
+          {/* <ClientOnly>
             <RecordSpeech
               onAfterRecord={onAfterRecord}
               onRecordStart={onRecordStart}
             />
-          </ClientOnly>
+          </ClientOnly> */}
         </div>
         <button
           type="button"
