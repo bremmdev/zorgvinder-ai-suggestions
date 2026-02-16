@@ -10,8 +10,6 @@ import { useServerFn } from "@tanstack/react-start";
 import { generateAISuggestions } from "@/_actions/ai-suggestion";
 import { AISuggestion } from "@/types";
 import { Badge } from "./Badge";
-import { RecordSpeech } from "./RecordSpeech";
-import { ClientOnly } from "@tanstack/react-router";
 
 type Props = {
   onSelectAISuggestion: (suggestion: string) => void;
@@ -21,6 +19,7 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
   const getAISuggestionsFn = useServerFn(generateAISuggestions);
 
   const [aiSuggestions, setAiSuggestions] = useState<AISuggestion[]>([]);
+  const [isSafe, setIsSafe] = useState<boolean>(true);
   const [isLoadingAI, setIsLoadingAI] = useState(false);
   const [showAISuggestions, setShowAISuggestions] = useState(false);
   const [helpInputQuery, setHelpInputQuery] = useState("");
@@ -49,12 +48,19 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
     setAiSuggestions([]);
 
     try {
+      setIsSafe(true);
       const { data, error } = await getAISuggestionsFn({
         data: { query: queryToUse },
       });
       if (error) {
-        console.error(error);
-        setAiSuggestions([]);
+        if (error === "Query is unsafe") {
+          setIsSafe(false);
+          setAiSuggestions([]);
+          setShowAISuggestions(true); // Show the zero results message for unsafe queries
+        } else {
+          console.error(error);
+          setAiSuggestions([]);
+        }
       } else {
         setAiSuggestions(data || []);
         setShowAISuggestions(true);
@@ -75,17 +81,20 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
     }
   };
 
-  const onAfterRecord = (transcript: string) => {
-    setHelpInputQuery(transcript);
-    getAISuggestions(transcript);
-  };
+  // const onAfterRecord = (transcript: string) => {
+  //   setHelpInputQuery(transcript);
+  //   getAISuggestions(transcript);
+  // };
 
-  const onRecordStart = () => {
-    setHelpInputQuery("");
-    setShowAISuggestions(false);
-    setAiSuggestions([]);
-  };
+  // const onRecordStart = () => {
+  //   setHelpInputQuery("");
+  //   setShowAISuggestions(false);
+  //   setAiSuggestions([]);
+  // };
 
+  console.log('hier is isSafe', isSafe);
+
+  const zeroResultsMessage = isSafe ? "Geen aanbevelingen gevonden" : "Met deze zoekopdracht kan ik je niet helpen. We kunnen je alleen helpen met zoekopdrachten die gerelateerd zijn aan gezondheid of zorg.";
   const shouldShowAISuggestions = showAISuggestions && aiSuggestions.length > 0;
   const shouldShowZeroResults =
     !isLoadingAI && showAISuggestions && aiSuggestions.length === 0;
@@ -189,7 +198,7 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
         <div className="ai-suggestions-dropdown help-suggestions">
           <div className="ai-suggestions-header">
             <Sparkles size={16} />
-            <span>Geen aanbevelingen gevonden</span>
+            <span>{zeroResultsMessage}</span>
           </div>
         </div>
       )}
