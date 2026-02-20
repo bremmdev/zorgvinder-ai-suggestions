@@ -1,6 +1,6 @@
 import { createServerFn } from "@tanstack/react-start";
 import { createOpenRouter } from "@openrouter/ai-sdk-provider";
-import { generateText, LanguageModel, Output } from "ai";
+import { generateText, LanguageModel, Output, APICallError } from "ai";
 import { createSuggestionPrompt, createGuardPrompt } from "../../utils/prompt";
 import { z } from "zod";
 import { AISuggestionsSchema } from "@/types";
@@ -42,7 +42,7 @@ export const generateAISuggestions = createServerFn()
     console.log('hier is safety', safety);
     if (safety.classification === "unsafe") {
       return {
-        error: "Query is unsafe",
+        error: "ERROR_UNSAFE_QUERY",
       };
     }
 
@@ -55,13 +55,20 @@ export const generateAISuggestions = createServerFn()
           name: "AISuggestions",
           description: "AI suggestions",
         }),
+        maxRetries: 0
       });
 
       return { data: output.suggestions, error: null };
     } catch (error) {
       console.error(error);
+
+      if (error instanceof APICallError && error.statusCode === 429) {
+        return {
+          error: "ERROR_RATE_LIMIT",
+        };
+      }
       return {
-        error: "Failed to get AI suggestions",
+        error: "ERROR_SYSTEM",
       };
     }
   });

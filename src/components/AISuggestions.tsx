@@ -20,6 +20,7 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
 
   const [aiSuggestions, setAiSuggestions] = useState<AISuggestion[]>([]);
   const [isSafe, setIsSafe] = useState<boolean>(true);
+  const [rateLimitError, setRateLimitError] = useState<boolean>(false);
   const [isLoadingAI, setIsLoadingAI] = useState(false);
   const [showAISuggestions, setShowAISuggestions] = useState(false);
   const [helpInputQuery, setHelpInputQuery] = useState("");
@@ -49,15 +50,20 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
 
     try {
       setIsSafe(true);
+      setRateLimitError(false);
       const { data, error } = await getAISuggestionsFn({
         data: { query: queryToUse },
       });
       if (error) {
-        if (error === "Query is unsafe") {
+        if (error === "ERROR_UNSAFE_QUERY") {
           setIsSafe(false);
           setAiSuggestions([]);
           setShowAISuggestions(true); // Show the zero results message for unsafe queries
         } else {
+          if (error === "ERROR_RATE_LIMIT") {
+            setRateLimitError(true);
+            setIsLoadingAI(false);
+          }
           console.error(error);
           setAiSuggestions([]);
         }
@@ -91,8 +97,6 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
   //   setShowAISuggestions(false);
   //   setAiSuggestions([]);
   // };
-
-  console.log('hier is isSafe', isSafe);
 
   const zeroResultsMessage = isSafe ? "Geen aanbevelingen gevonden" : "Met deze zoekopdracht kan ik je niet helpen. We kunnen je alleen helpen met zoekopdrachten die gerelateerd zijn aan gezondheid of zorg.";
   const shouldShowAISuggestions = showAISuggestions && aiSuggestions.length > 0;
@@ -199,6 +203,14 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
           <div className="ai-suggestions-header">
             <Sparkles size={16} />
             <span>{zeroResultsMessage}</span>
+          </div>
+        </div>
+      )}
+      {rateLimitError && (
+        <div className="ai-suggestions-dropdown help-suggestions">
+          <div className="ai-suggestions-header">
+            <Sparkles size={16} />
+            <span>You have reached the rate limit. Please try again later.</span>
           </div>
         </div>
       )}
