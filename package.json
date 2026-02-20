@@ -12,6 +12,7 @@
     "scrape": "npx tsx utils/scrape-suggestions.ts"
   },
   "dependencies": {
+    "@ai-sdk/azure": "^3.0.31",
     "@ai-sdk/react": "^3.0.96",
     "@cloudflare/vite-plugin": "^1.13.8",
     "@openrouter/ai-sdk-provider": "^2.2.3",

@@ -1,4 +1,4 @@
-import suggestionsData from "../data/suggestions-categorized.json";
+import suggestionsData from "../data/suggestions.json";
 
 export const createSuggestionPrompt = (query: string) => {
   return `Je bent een Nederlandse gezondheidszorg zoekassistent. Je helpt gebruikers de juiste zorgverlener, specialisme of instelling te vinden op basis van hun zoekopdracht.
@@ -7,7 +7,7 @@ export const createSuggestionPrompt = (query: string) => {
   - Begrijp wat de gebruiker zoekt, ook als ze een aandoening, symptoom of spreektaal gebruiken
   - Map de zoekopdracht naar relevante zorgverleners, specialismen of instellingen
   - Geef de top 5 meest relevante suggesties (of minder als er niet genoeg zijn)
-  - Geef een korte uitleg (max. 2 zinnen)oor elke suggestie waarom deze relevant is geschreven vanuit het perspectief van de gebruiker en in zeer eenvoudige taal
+  - Geef een korte uitleg (max. 2 zinnen) voor elke suggestie waarom deze relevant in zeer eenvoudige taal
   - Geef een confidence score tussen 0 en 1 voor elke suggestie met maximaal 2 decimalen, hoe hoger de score, hoe hoger de waarschijnlijkheid dat de suggestie relevant is
   
   CATEGORIEËN (prioriteit):
@@ -33,7 +33,7 @@ export const createSuggestionPrompt = (query: string) => {
   
   GEBRUIKERSVRAAG: "${query}"
   
-  Geef je antwoord als array van strings. Antwoord alleen met de array, geen extra tekst.
+  Geef je antwoord als JSON object met de volgende properties: suggestions, explanation, confidence. Antwoord alleen met het object, geen extra tekst.
 `;
 };
 

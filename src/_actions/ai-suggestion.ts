@@ -4,10 +4,17 @@ import { generateText, LanguageModel, Output } from "ai";
 import { createSuggestionPrompt, createGuardPrompt } from "../../utils/prompt";
 import { z } from "zod";
 import { AISuggestionsSchema } from "@/types";
+import { createAzure } from "@ai-sdk/azure";
 
 const openrouter = createOpenRouter({
   apiKey: process.env.OPENROUTER_API_KEY as string,
 });
+
+const azureProvider = createAzure({
+  resourceName: process.env.AZURE_RESOURCE_NAME as string,
+  apiKey: process.env.AZURE_FOUNDRY_API_KEY as string,
+});
+
 
 async function checkIfSafe(query: string) {
   const { output } = await generateText({
@@ -40,10 +47,8 @@ export const generateAISuggestions = createServerFn()
     }
 
     try {
-      const { output: suggestions } = await generateText({
-        model: openrouter.chat(
-          "google/gemini-2.5-flash-lite-preview-09-2025"
-        ) as LanguageModel,
+      const { output } = await generateText({
+        model: azureProvider.chat("gpt-5.2-chat"),
         prompt: createSuggestionPrompt(data.query),
         output: Output.object({
           schema: AISuggestionsSchema,
@@ -52,7 +57,7 @@ export const generateAISuggestions = createServerFn()
         }),
       });
 
-      return { data: suggestions, error: null };
+      return { data: output.suggestions, error: null };
     } catch (error) {
       console.error(error);
       return {
