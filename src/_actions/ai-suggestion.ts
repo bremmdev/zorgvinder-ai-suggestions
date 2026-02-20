@@ -1,25 +1,29 @@
 import { createServerFn } from "@tanstack/react-start";
 import { createOpenRouter } from "@openrouter/ai-sdk-provider";
-import { generateObject, LanguageModel } from "ai";
+import { generateText, LanguageModel, Output } from "ai";
 import { createSuggestionPrompt, createGuardPrompt } from "../../utils/prompt";
-import { AISuggestionsSchema } from "@/types";
 import { z } from "zod";
+import { AISuggestionsSchema } from "@/types";
 
 const openrouter = createOpenRouter({
   apiKey: process.env.OPENROUTER_API_KEY as string,
 });
 
 async function checkIfSafe(query: string) {
-  const { object } = await generateObject({
+  const { output } = await generateText({
     model: openrouter.chat(
       "google/gemini-2.5-flash-lite-preview-09-2025"
     ) as LanguageModel,
     prompt: createGuardPrompt(query),
-    schema: z.object({
-      classification: z.enum(["safe", "unsafe"]),
-    })
+    output: Output.object({
+      schema: z.object({
+        classification: z.enum(["safe", "unsafe"]),
+      }),
+      name: "Guard",
+      description: "Check if the query is safe",
+    }),
   });
-  return object;
+  return output
 }
 
 export const generateAISuggestions = createServerFn()
@@ -36,12 +40,16 @@ export const generateAISuggestions = createServerFn()
     }
 
     try {
-      const { object: suggestions } = await generateObject({
+      const { output: suggestions } = await generateText({
         model: openrouter.chat(
           "google/gemini-2.5-flash-lite-preview-09-2025"
         ) as LanguageModel,
         prompt: createSuggestionPrompt(data.query),
-        schema: AISuggestionsSchema,
+        output: Output.object({
+          schema: AISuggestionsSchema,
+          name: "AISuggestions",
+          description: "AI suggestions",
+        }),
       });
 
       return { data: suggestions, error: null };
