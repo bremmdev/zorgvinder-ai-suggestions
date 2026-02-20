@@ -1,4 +1,4 @@
-import suggestionsData from "../data/suggestions.json";
+import suggestionsCSV from "../data/suggestions-categorized.csv?raw";
 
 export const createSuggestionPrompt = (query: string) => {
   return `Je bent een Nederlandse gezondheidszorg zoekassistent. Je helpt gebruikers de juiste zorgverlener, specialisme of instelling te vinden op basis van hun zoekopdracht.
@@ -28,8 +28,8 @@ export const createSuggestionPrompt = (query: string) => {
   - Prioriteer zorgverleners en instellingen boven aandoeningen
   - Als er geen goede match is, geef minder dan 5 resultaten of geen resultaten
   
-  BESCHIKBARE SUGGESTIES:
-  ${JSON.stringify(suggestionsData, null, 2)}
+  BESCHIKBARE SUGGESTIES (CSV: name,category):
+  ${suggestionsCSV}
   
   GEBRUIKERSVRAAG: "${query}"
   

@@ -10,4 +10,7 @@
       "custom_domain": true,
     },
   ],
+  "observability": {
+    "enabled": true,
+  },
 }
