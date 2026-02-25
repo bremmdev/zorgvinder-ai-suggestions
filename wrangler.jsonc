@@ -1,16 +1,25 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "tanstack-start-app",
-  "compatibility_date": "2025-09-02",
-  "compatibility_flags": ["nodejs_compat"],
-  "main": "@tanstack/react-start/server-entry",
-  "routes": [
-    {
-      "pattern": "zorgvinder.bremmdev.me",
-      "custom_domain": true,
-    },
-  ],
-  "observability": {
-    "enabled": true,
-  },
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "zorgvinder-ai-suggestions",
+	"compatibility_date": "2025-09-02",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"main": "@tanstack/react-start/server-entry",
+	"routes": [
+		{
+			"pattern": "zorgvinder.bremmdev.me",
+			"custom_domain": true,
+		},
+	],
+	"observability": {
+		"enabled": true,
+	},
+	"vectorize": [
+		{
+			"binding": "VECTORIZE",
+			"index_name": "zorgvinder-ai-suggestions",
+			"remote": true
+		}
+	],
 }
