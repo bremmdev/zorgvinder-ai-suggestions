@@ -10,7 +10,8 @@
     "test": "vitest run",
     "deploy": "npm run build && wrangler deploy",
     "scrape": "npx tsx utils/scrape-suggestions.ts",
-    "embed": "npx tsx --env-file .env utils/embedding.ts"
+    "embed": "npx tsx --env-file .env utils/embedding.ts",
+    "cf-typegen": "wrangler types"
   },
   "dependencies": {
     "@ai-sdk/azure": "^3.0.31",

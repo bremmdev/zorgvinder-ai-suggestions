@@ -1,6 +1,6 @@
 import suggestionsCSV from "../data/suggestions-categorized.csv?raw";
 
-export const createSuggestionPrompt = (query: string) => {
+export const createSuggestionPrompt = (query: string, suggestions: string = suggestionsCSV) => {
   return `Je bent een Nederlandse gezondheidszorg zoekassistent. Je helpt gebruikers de juiste zorgverlener, specialisme of instelling te vinden op basis van hun zoekopdracht.
   
   TAKEN:
@@ -29,7 +29,7 @@ export const createSuggestionPrompt = (query: string) => {
   - Als er geen goede match is, geef minder dan 5 resultaten of geen resultaten
   
   BESCHIKBARE SUGGESTIES (CSV: name,category):
-  ${suggestionsCSV}
+  ${suggestions}
   
   GEBRUIKERSVRAAG: "${query}"
   

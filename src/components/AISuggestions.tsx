@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
-import { generateAISuggestions } from "@/_actions/ai-suggestion";
+import { generateAISuggestions, generateAISuggestionsWithVectorSearch } from "@/_actions/ai-suggestion";
 import { AISuggestion } from "@/types";
 import { Badge } from "./Badge";
 
