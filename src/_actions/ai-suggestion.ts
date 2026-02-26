@@ -97,8 +97,6 @@ export const generateAISuggestionsWithVectorSearch = createServerFn()
       ...suggestionsMetadata.map((item: any) => headers.map((h) => `"${item[h]}"`).join(",")),
     ].join("\n");
 
-    console.log(csv)
-
     try {
       const { output } = await generateText({
         model: azureProvider.chat("gpt-5.2-chat"),
