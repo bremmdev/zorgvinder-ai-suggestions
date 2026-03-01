@@ -88,18 +88,20 @@ export const generateAISuggestionsWithVectorSearch = createServerFn()
       returnMetadata: "all",
     });
 
-    const suggestionsMetadata = matches.matches.map((match: any) => match.metadata);
+    const suggestionsMetadata = matches.matches.map((match: any) => ({ ...match.metadata, confidence: match.score }));
 
     // convert to csv
-    const headers = ["name", "category"];
+    const headers = ["name", "category", "explanation"];
     const csv = [
       headers.join(","),
-      ...suggestionsMetadata.map((item: any) => headers.map((h) => `"${item[h]}"`).join(",")),
+      ...suggestionsMetadata.map((item: any) => headers.map((h) => `"${item[h as keyof typeof item]}"`).join(",")),
     ].join("\n");
 
     try {
       const { output } = await generateText({
-        model: azureProvider.chat("gpt-5.2-chat"),
+        model: openrouter.chat(
+          "google/gemini-2.5-flash-lite-preview-09-2025"
+        ) as LanguageModel,
         prompt: createSuggestionPrompt(data.query, csv),
         output: Output.object({
           schema: AISuggestionsSchema,
