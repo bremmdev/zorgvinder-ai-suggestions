@@ -16,7 +16,6 @@ type Props = {
 };
 
 export function AISuggestions({ onSelectAISuggestion }: Props) {
-  const getAISuggestionsFn = useServerFn(generateAISuggestions);
 
   const [aiSuggestions, setAiSuggestions] = useState<AISuggestion[]>([]);
   const [isSafe, setIsSafe] = useState<boolean>(true);
@@ -25,6 +24,9 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
   const [showAISuggestions, setShowAISuggestions] = useState(false);
   const [helpInputQuery, setHelpInputQuery] = useState("");
   const [toolTipIndex, setToolTipIndex] = useState<number | null>(null);
+  const [useVectorSearch, setUseVectorSearch] = useState(false);
+
+  const getAISuggestionsFn = useServerFn(useVectorSearch ? generateAISuggestionsWithVectorSearch : generateAISuggestions);
 
   const selectAISuggestion = (
     e: React.MouseEvent<HTMLDivElement>,
@@ -139,6 +141,7 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
             />
           </ClientOnly> */}
         </div>
+
         <button
           type="button"
           className="help-button"
@@ -158,6 +161,11 @@ export function AISuggestions({ onSelectAISuggestion }: Props) {
           )}
         </button>
       </div>
+      <div className="vector-search-wrapper">
+        <input type="checkbox" id="vector-search" checked={useVectorSearch} onChange={() => setUseVectorSearch(!useVectorSearch)} />
+        <label htmlFor="vector-search">Gebruik vector search</label>
+      </div>
+
       {shouldShowAISuggestions && (
         <div className="ai-suggestions-dropdown help-suggestions">
           <div className="ai-suggestions-header">

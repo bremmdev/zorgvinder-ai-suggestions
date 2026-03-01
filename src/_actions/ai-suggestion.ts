@@ -110,7 +110,7 @@ export const generateAISuggestionsWithVectorSearch = createServerFn()
         }),
         maxRetries: 0
       });
-      return { data: output.suggestions, error: null };
+      return { data: output.suggestions.sort((a, b) => b.confidence - a.confidence), error: null };
     } catch (error) {
       if (error instanceof APICallError && error.statusCode === 429) {
         return {
