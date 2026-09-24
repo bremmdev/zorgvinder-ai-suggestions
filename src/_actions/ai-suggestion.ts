@@ -1,7 +1,7 @@
 import { createServerFn } from "@tanstack/react-start";
 import { createOpenRouter } from "@openrouter/ai-sdk-provider";
 import { embed, generateText, LanguageModel, Output, APICallError } from "ai";
-import { createSuggestionPrompt, createGuardPrompt } from "../../utils/prompt";
+import { createSuggestionPrompt, GUARD_INSTRUCTIONS } from "../../utils/prompt";
 import { z } from "zod";
 import { AISuggestionsSchema } from "@/types";
 import { createAzure } from "@ai-sdk/azure";
@@ -17,39 +17,55 @@ const azureProvider = createAzure({
 });
 
 
+// only queries Jev considers health related are safe
+const GUARD_HEALTH_THRESHOLD = 0.5;
+
+const JevResponseSchema = z.object({
+  answers: z.object({
+    health_related: z.object({ type: z.literal("noul"), noul: z.number().min(0).max(1) }),
+  }),
+});
+
+// Jev is a decisions model: it returns a probability per question instead of generated text
 async function checkIfSafe(query: string) {
-  const { output } = await generateText({
-    model: openrouter.chat(
-      "google/gemini-2.5-flash-lite-preview-09-2025"
-    ) as LanguageModel,
-    prompt: createGuardPrompt(query),
-    output: Output.object({
-      schema: z.object({
-        classification: z.enum(["safe", "unsafe"]),
-      }),
-      name: "Guard",
-      description: "Check if the query is safe",
+  const res = await fetch("https://openrouter.ai/api/alpha/decisions", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model: "~typesafe/jev-latest",
+      state: { query },
+      questions: {
+        health_related: { type: "noul", instructions: GUARD_INSTRUCTIONS },
+      },
     }),
   });
-  return output
+  if (!res.ok) {
+    throw new Error(`Jev decisions ${res.status}: ${await res.text()}`);
+  }
+  const { answers } = JevResponseSchema.parse(await res.json());
+  return {
+    classification: answers.health_related.noul >= GUARD_HEALTH_THRESHOLD ? "safe" : "unsafe",
+  } as const;
 }
 
 export const generateAISuggestions = createServerFn()
-  .inputValidator((d: { query: string }) => d)
+  .validator((d: { query: string }) => d)
   .handler(async ({ data }) => {
-
-    // first ask the model if the query is 'safe'
-    const safety = await checkIfSafe(data.query);
-    console.log('hier is safety', safety);
-    if (safety.classification === "unsafe") {
-      return {
-        error: "ERROR_UNSAFE_QUERY",
-      };
-    }
-
     try {
+      // first ask the model if the query is 'safe'
+
+      const safety = await checkIfSafe(data.query);
+      if (safety.classification === "unsafe") {
+        return {
+          error: "ERROR_UNSAFE_QUERY",
+        };
+      }
+
       const { output } = await generateText({
-        model: azureProvider.chat("gpt-5.2-chat"),
+        model: azureProvider.chat("gpt-6-luna"),
         prompt: createSuggestionPrompt(data.query),
         output: Output.object({
           schema: AISuggestionsSchema,
@@ -74,7 +90,7 @@ export const generateAISuggestions = createServerFn()
 
 // V2 includes vector search, which performs worse than the original function, both in terms of speed and accuracy. Vector search takes lexically similar suggestions into account, which is not always what we want.
 export const generateAISuggestionsWithVectorSearch = createServerFn()
-  .inputValidator((d: { query: string }) => d)
+  .validator((d: { query: string }) => d)
   .handler(async ({ data }) => {
     const queryVector = await embed({
       model: openrouter.textEmbeddingModel('openai/text-embedding-3-small'),
@@ -100,7 +116,7 @@ export const generateAISuggestionsWithVectorSearch = createServerFn()
     try {
       const { output } = await generateText({
         model: openrouter.chat(
-          "google/gemini-2.5-flash-lite-preview-09-2025"
+          "google/gemini-3.1-flash-lite"
         ) as LanguageModel,
         prompt: createSuggestionPrompt(data.query, csv),
         output: Output.object({
